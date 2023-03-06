@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/language-test-4">
+    <BrowserRouter basename="/this-is-retouche">
       <App />
     </BrowserRouter>
   </React.StrictMode>

@@ -1,10 +1,10 @@
 import { Outlet } from 'react-router-dom';
-import { HeaderUA } from './HeaderUA';
+import { Header } from './Header/Header';
 
-export const LayoutUA = () => {
+export const Layout = () => {
   return (
     <>
-      <HeaderUA />
+      <Header />
       <Outlet />
     </>
   );
