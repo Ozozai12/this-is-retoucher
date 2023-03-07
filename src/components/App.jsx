@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 
+import { Layout } from './Layout';
 import { GeneralPage } from 'pages/General';
 import { AboutPage } from 'pages/About';
 import { PaymentPage } from 'pages/Payment';
@@ -12,13 +13,11 @@ import { FamilyPage } from 'pages/Family';
 import { BeforeAfterPage } from 'pages/BeforeAfter';
 import { EighteenPage } from 'pages/Eighteen';
 
-import { Layout } from './Layout';
-
 import css from './App.module.css';
 
 export const App = () => {
   return (
-    <div className={css.container}>
+    <div className={css.appWrapper}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<GeneralPage />} />

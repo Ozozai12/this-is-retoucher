@@ -1,43 +1,57 @@
-import { Link } from 'react-router-dom';
+import { StyledLink } from './Header.styled';
+import { IconContext } from 'react-icons';
+import { AiFillCaretDown } from 'react-icons/ai';
 import css from './Header.module.css';
 
 export const Header = () => {
   return (
-    <>
-      <div className={css.header}>
-        <div className={css.navContainer}>
-          <Link to="/about" className={css.navItem}>
-            About me
-          </Link>
-          <Link to="/payment" className={css.navItem}>
-            Payment
-          </Link>
-          <Link to="/reviews" className={css.navItem}>
-            Reviews
-          </Link>
-          <Link to="/celebrity" className={css.navItem}>
-            Celebrity
-          </Link>
-          <Link to="/magazines" className={css.navItem}>
-            Magazines
-          </Link>
-          <Link to="/beauty" className={css.navItem}>
-            Beauty
-          </Link>
-          <Link to="/pregnancy" className={css.navItem}>
-            Pregnancy
-          </Link>
-          <Link to="/family" className={css.navItem}>
-            Family
-          </Link>
-          <Link to="/before-after" className={css.navItem}>
-            Before/After
-          </Link>
-          <Link to="/18+" className={css.navItem}>
-            18+
-          </Link>
+    <div className={css.header}>
+      <div className={css.container}>
+        <div className={css.langContainer}>
+          <div className={css.langSwitcher}>
+            En
+            <IconContext.Provider value={{ className: css.langIcon }}>
+              <AiFillCaretDown />
+            </IconContext.Provider>
+          </div>
+        </div>
+        <div className={css.headerContainer}>
+          <div className={css.navContainer}>
+            <StyledLink to="/about" className={css.navItem}>
+              About me
+            </StyledLink>
+            <StyledLink to="/payment" className={css.navItem}>
+              Payment
+            </StyledLink>
+            <StyledLink to="/reviews" className={css.navItem}>
+              Reviews
+            </StyledLink>
+          </div>
+          <div className={css.navContainer}>
+            <StyledLink to="/celebrity" className={css.navItem}>
+              Celebrity
+            </StyledLink>
+            <StyledLink to="/magazines" className={css.navItem}>
+              Magazines
+            </StyledLink>
+            <StyledLink to="/beauty" className={css.navItem}>
+              Beauty
+            </StyledLink>
+            <StyledLink to="/pregnancy" className={css.navItem}>
+              Pregnancy
+            </StyledLink>
+            <StyledLink to="/family" className={css.navItem}>
+              Family
+            </StyledLink>
+            <StyledLink to="/before-after" className={css.navItem}>
+              Before/After
+            </StyledLink>
+            <StyledLink to="/18+" className={css.navItem}>
+              18+
+            </StyledLink>
+          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };

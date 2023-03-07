@@ -1,7 +1,10 @@
+import { Sidebar } from 'components/Sidebar/Sidebar';
+import css from './General.module.css';
+
 export function General() {
   return (
-    <div>
-      <h2>General Page</h2>
+    <div className={css.container}>
+      <Sidebar />
     </div>
   );
 }

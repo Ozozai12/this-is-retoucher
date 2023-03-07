@@ -1,29 +1,46 @@
 .header {
-  height: 50px;
+  background-color: rgba(201, 194, 175, 0.72);
+  padding-top: 20px;
+  padding-bottom: 28px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1280px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.langContainer {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 11px;
+  color: #fff;
+}
+
+.langSwitcher {
+  display: flex;
+  align-items: flex-end;
+}
+
+.langIcon {
+  margin-left: 2px;
+  color: #fff;
+}
+
+.headerContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.logo {
-  font-style: italic;
-  font-size: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .navItem {
   text-decoration: none;
-  color: black;
-}
-
-.langItem {
-  text-decoration: none;
-  color: grey;
+  color: #fff;
 }
 
 .navItem:not(:last-child) {
-  margin-right: 20px;
-}
-
-.langItem:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 46px;
 }
