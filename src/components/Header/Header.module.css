@@ -44,3 +44,8 @@
 .navItem:not(:last-child) {
   margin-right: 46px;
 }
+
+.navItem:hover {
+  color: #555;
+  border-bottom: 1px solid #555;
+}

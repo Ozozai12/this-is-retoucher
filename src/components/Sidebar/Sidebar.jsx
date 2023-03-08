@@ -7,7 +7,7 @@ export function Sidebar() {
   return (
     <div className={css.sidebar}>
       <a
-        href="https://www.instagram.com/"
+        href="https://instagram.com/this_is_retoucher?igshid=YmMyMTA2M2Y="
         className={css.frame}
         target="_blank"
         rel="noopener noreferrer nofollow"
@@ -16,7 +16,7 @@ export function Sidebar() {
           <AiFillInstagram />
         </IconContext.Provider>
       </a>
-      <a href="mailto:thisisretoucher@gmail.com" className={css.frame}>
+      <a href="mailto:r.retouch.photo@gmail.com" className={css.frame}>
         <IconContext.Provider value={{ className: css.icon }}>
           <RiMailAddLine />
         </IconContext.Provider>

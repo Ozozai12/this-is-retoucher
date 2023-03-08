@@ -1,0 +1,140 @@
+.container {
+  margin: 0 auto;
+  width: 1280px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.pageContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textFrame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 84px;
+  margin-left: 125px;
+  width: 414px;
+  height: 648px;
+
+  background-color: rgba(255, 255, 255, 0.62);
+  border: 4px dashed #000000;
+}
+
+.textContainer {
+  width: 279px;
+  height: 625px;
+  margin-top: 11px;
+}
+
+.welcomeText {
+  font-family: 'Habibi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+.welcomeList {
+  color: #c9c2af;
+}
+
+.firstLetter {
+  margin-left: 5px;
+  font-family: 'Habibi', serif;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.tapeContainer {
+  position: relative;
+  margin-right: 108px;
+  width: 548px;
+  height: 300px;
+  top: 450px;
+}
+
+.tape {
+  position: absolute;
+  z-index: 4;
+}
+
+.photoOne {
+  position: absolute;
+  left: 7px;
+  top: -165px;
+  z-index: 1;
+}
+
+.photoTwo {
+  position: absolute;
+  left: 208px;
+  top: -280px;
+  z-index: 2;
+}
+
+.photoThree {
+  position: absolute;
+  right: 10px;
+  top: -110px;
+  z-index: 1;
+}
+
+.photoFour {
+  position: absolute;
+  right: 140px;
+  top: 125px;
+  z-index: 1;
+}
+
+.tapeTextOne {
+  position: absolute;
+  top: -360px;
+  right: 8px;
+
+  font-family: 'Cambo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.05em;
+
+  color: #858585;
+}
+
+.tapeTextTwo {
+  position: absolute;
+  top: -270px;
+  right: -30px;
+
+  font-family: 'Cambo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.125em;
+
+  color: #adadad;
+
+  transform: rotate(-90deg);
+}
+
+.tapeTextPS {
+  position: absolute;
+  bottom: 0;
+  font-family: 'Great Vibes', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+
+  color: #000000;
+}
+
+.tapeTextPSAccent {
+  color: #af0707;
+}
