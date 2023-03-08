@@ -1,4 +1,5 @@
 .sidebar {
+  position: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,7 +8,29 @@
   height: 138px;
   background-color: rgba(201, 194, 175, 0.51);
   border-radius: 10px;
-  margin-top: 388px;
+  left: 120px;
+  top: 499px;
+}
+
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.frame:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.frame:hover {
+  background-color: #c5c2c2;
+}
+
+.frame:active {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .icon {
@@ -16,6 +39,6 @@
   height: 36px;
 }
 
-.icon:not(:last-child) {
-  margin-bottom: 18px;
+.icon:active {
+  color: #ffffff;
 }

@@ -4,3 +4,127 @@
   padding-left: 80px;
   padding-right: 80px;
 }
+
+.photoOne {
+  position: absolute;
+  width: 758px;
+  height: 492px;
+  object-fit: contain;
+  left: 366px;
+  top: 145px;
+  z-index: 1;
+}
+
+.photoTwo {
+  position: absolute;
+  width: 621px;
+  height: 384px;
+  object-fit: contain;
+  left: 691px;
+  top: 580px;
+  z-index: 3;
+}
+
+.photoThree {
+  position: absolute;
+  width: 296px;
+  height: 200px;
+  object-fit: contain;
+  left: 375px;
+  top: 659px;
+  z-index: 4;
+}
+
+.frameOne {
+  position: absolute;
+  left: 347px;
+  top: 171px;
+  width: 753px;
+  height: 583px;
+  z-index: 2;
+  border: 3px solid #fff;
+}
+
+.frameTwo {
+  position: absolute;
+  width: 679px;
+  height: 432px;
+  left: 662px;
+  top: 568px;
+  z-index: 3;
+  border: 2.5px solid #ffffff;
+}
+
+.frameThree {
+  position: absolute;
+  width: 345px;
+  height: 187px;
+  left: 350px;
+  top: 691px;
+  z-index: 3;
+  border: 2px solid #858585;
+}
+
+.titleOne {
+  position: absolute;
+  left: -265px;
+  top: 183px;
+
+  font-family: 'Cambo', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
+
+  color: #858585;
+
+  transform: rotate(-90deg);
+}
+
+.titleTwo {
+  position: absolute;
+  right: 164px;
+  bottom: 520px;
+
+  font-family: 'Cambo', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
+
+  color: #ffffff;
+
+  transform: rotate(-90deg);
+}
+
+.titleThree {
+  position: absolute;
+  right: 255px;
+  bottom: 183px;
+  z-index: 4;
+
+  font-family: 'Cambo', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.125em;
+
+  color: #adadad;
+}
+
+.titleFour {
+  position: absolute;
+  left: 18px;
+  bottom: -48px;
+  z-index: 4;
+
+  font-family: 'Cambo', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.085em;
+
+  color: #d6d6d6;
+}
