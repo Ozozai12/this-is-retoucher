@@ -1,0 +1,165 @@
+.container {
+  margin: 0 auto;
+  width: 1280px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.pageContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageContainer:after {
+  content: 'retoucheretoucherretoucherretoucherretoucherretoucher retoucheretoucherretoucherretoucherretoucherretoucher retoucheretoucherretoucherretoucherretoucherretoucher retoucheretoucherretoucherretoucherretoucherretoucher retoucheretoucherretoucherretoucherretoucherretoucher retoucheretoucherretoucherretoucherretoucherretoucher retoucheretoucherretoucherretoucherretoucherretoucher retoucheretoucherretoucherretoucherretoucherretoucher retoucheretoucherretoucherretoucherretoucherretoucher retoucheretoucherretoucherretoucherretoucherretoucher retoucheretoucherretoucherretoucherretoucherretoucher retoucheretoucherretoucherretoucherretoucherretoucher retoucheretoucherretoucherretoucherretoucherretoucher retoucheretoucherretoucherretoucherretoucherretoucher retoucheretoucherretoucherretoucherretoucherretoucher';
+  position: absolute;
+  color: rgba(228, 228, 228, 0.4);
+  font-family: 'Cambo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.085em;
+  top: 228px;
+  margin-left: 69px;
+  z-index: 1;
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+  width: 592px;
+  margin-left: 69px;
+  margin-top: 53px;
+  z-index: 10;
+}
+
+.priceThumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 89px;
+  width: 217px;
+  height: 64px;
+  background: #555555;
+  border-radius: 10px;
+}
+
+.thumbText {
+  display: block;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+
+  color: #c9c2af;
+}
+
+.imageThumb {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  background-color: #fff;
+}
+
+.priceTitle {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #555555;
+}
+
+.priceValue {
+  display: block;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 34px;
+
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #555555;
+}
+
+.payContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 53px;
+  z-index: 10;
+}
+
+.payThumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 89px;
+  width: 577px;
+  height: 64px;
+  background: #555555;
+  border-radius: 10px;
+}
+
+.iphoneFrame {
+  position: relative;
+  z-index: 10;
+  margin-right: 62px;
+}
+
+.iphoneScreen {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  top: 15px;
+  left: 125px;
+  width: 197px;
+  height: 431px;
+  background-color: #fff;
+  z-index: -1;
+}
+
+.iphone {
+  pointer-events: none;
+  z-index: -1;
+}
+
+.payItem {
+  display: flex;
+  width: 72px;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.payItem:nth-child(even) {
+  margin-left: 10px;
+}
+
+.payItem:nth-child(-n + 2) {
+  margin-top: 40px;
+}
+
+.payItem:last-child {
+  margin-bottom: 40px;
+}
+
+.payTitle {
+  margin-top: 12px;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #000000;
+}
