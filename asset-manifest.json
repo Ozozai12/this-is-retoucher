@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/this-is-retoucher/static/css/main.27746f5e.css",
+    "main.js": "/this-is-retoucher/static/js/main.b2aa35e1.js",
+    "index.html": "/this-is-retoucher/index.html",
+    "main.27746f5e.css.map": "/this-is-retoucher/static/css/main.27746f5e.css.map",
+    "main.b2aa35e1.js.map": "/this-is-retoucher/static/js/main.b2aa35e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27746f5e.css",
+    "static/js/main.b2aa35e1.js"
+  ]
+}
