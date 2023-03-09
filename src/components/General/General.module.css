@@ -5,13 +5,17 @@
   padding-right: 80px;
 }
 
+.pageContainer {
+  position: relative;
+}
+
 .photoOne {
   position: absolute;
   width: 758px;
   height: 492px;
   object-fit: contain;
-  left: 366px;
-  top: 145px;
+  left: 246px;
+  top: 33px;
   z-index: 1;
 }
 
@@ -20,8 +24,8 @@
   width: 621px;
   height: 384px;
   object-fit: contain;
-  left: 691px;
-  top: 580px;
+  left: 571px;
+  top: 468px;
   z-index: 3;
 }
 
@@ -30,15 +34,15 @@
   width: 296px;
   height: 200px;
   object-fit: contain;
-  left: 375px;
-  top: 659px;
+  left: 255px;
+  top: 547px;
   z-index: 4;
 }
 
 .frameOne {
   position: absolute;
-  left: 347px;
-  top: 171px;
+  left: 227px;
+  top: 59px;
   width: 753px;
   height: 583px;
   z-index: 2;
@@ -49,8 +53,8 @@
   position: absolute;
   width: 679px;
   height: 432px;
-  left: 662px;
-  top: 568px;
+  left: 542px;
+  top: 456px;
   z-index: 3;
   border: 2.5px solid #ffffff;
 }
@@ -59,16 +63,16 @@
   position: absolute;
   width: 345px;
   height: 187px;
-  left: 350px;
-  top: 691px;
+  left: 230px;
+  top: 579px;
   z-index: 3;
   border: 2px solid #858585;
 }
 
 .titleOne {
   position: absolute;
-  left: -265px;
-  top: 183px;
+  left: -270px;
+  top: 181px;
 
   font-family: 'Cambo', serif;
   font-style: normal;
@@ -99,8 +103,8 @@
 
 .titleThree {
   position: absolute;
-  right: 255px;
-  bottom: 183px;
+  right: 75px;
+  bottom: 430px;
   z-index: 4;
 
   font-family: 'Cambo', serif;
@@ -111,12 +115,13 @@
   letter-spacing: 0.125em;
 
   color: #adadad;
+  z-index: 10;
 }
 
 .titleFour {
   position: absolute;
-  left: 18px;
-  bottom: -48px;
+  left: 20px;
+  bottom: -50px;
   z-index: 4;
 
   font-family: 'Cambo', serif;

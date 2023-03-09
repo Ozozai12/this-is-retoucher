@@ -1,3 +1,11 @@
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 1280px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 .sidebar {
   position: fixed;
   display: flex;
