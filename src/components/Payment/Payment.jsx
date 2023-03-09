@@ -13,16 +13,18 @@ export function Payment() {
           <div className={css.imageThumb}>
             <div className={css.imageContainer}>
               <img
-                src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678298056/this-is-retoucher/pay1_shnybz.jpg"
+                src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678389626/this-is-retoucher/pay1_rrcq9n.jpg"
                 alt="pregnant women with flowers"
+                className={css.payPhoto}
               />
               <span className={css.priceTitle}>Basic</span>
               <span className={css.priceValue}>from 5$</span>
             </div>
             <div className={css.imageContainer}>
               <img
-                src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678298071/this-is-retoucher/pay2_qvcsk0.jpg"
+                src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678389625/this-is-retoucher/pay2_r1wnij.jpg"
                 alt="woman's portrait"
+                className={css.payPhoto}
               />
               <span className={css.priceTitle}>High-end</span>
               <span className={css.priceValue}>from 12$</span>
@@ -43,74 +45,68 @@ export function Payment() {
                   className={css.payItem}
                 >
                   <img
-                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678304138/this-is-retoucher/payment/PayPal_mgbs6w.jpg"
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678390371/this-is-retoucher/payment/_MGL1282_1_ercf6w.png"
                     alt="paypal"
+                    className={css.payIcon}
                   />
                   <span className={css.payTitle}>PayPal</span>
                 </a>
-                <a
-                  href="https://www.paypal.com/ru/home"
-                  className={css.payItem}
-                >
+                <a href="https://www.transfergo.com/" className={css.payItem}>
                   <img
-                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678304138/this-is-retoucher/payment/Go_hpornv.jpg"
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678390371/this-is-retoucher/payment/_MGL1282_7_ziwyqg.png"
                     alt="transfergo"
+                    className={css.payIcon}
                   />
                   <span className={css.payTitle}>TransferGo</span>
                 </a>
                 <a
-                  href="https://www.paypal.com/ru/home"
+                  href="https://www.moneygram.com/mgo/us/en/"
                   className={css.payItem}
                 >
                   <img
-                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678304138/this-is-retoucher/payment/MoneyGram_gdsqxi.jpg"
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678390371/this-is-retoucher/payment/_MGL1282_3_su9biw.png"
                     alt="moneygram"
+                    className={css.payIcon}
                   />
                   <span className={css.payTitle}>MoneyGram</span>
                 </a>
-                <a
-                  href="https://www.paypal.com/ru/home"
-                  className={css.payItem}
-                >
+                <a href="https://paysend.com" className={css.payItem}>
                   <img
-                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678304138/this-is-retoucher/payment/paysend_bh0wmn.jpg"
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678390371/this-is-retoucher/payment/_MGL1282_2_jjbmzs.png"
                     alt="paysend"
+                    className={css.payIcon}
                   />
                   <span className={css.payTitle}>Paysend</span>
                 </a>
-                <a
-                  href="https://www.paypal.com/ru/home"
-                  className={css.payItem}
-                >
+                <a href="https://wise.com/" className={css.payItem}>
                   <img
-                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678304139/this-is-retoucher/payment/wise_dijh2n.jpg"
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678390371/this-is-retoucher/payment/_MGL1282_5_xxqwkv.png"
                     alt="wise"
+                    className={css.payIcon}
                   />
                   <span className={css.payTitle}>Wise</span>
                 </a>
-                <a
-                  href="https://www.paypal.com/ru/home"
-                  className={css.payItem}
-                >
+                <a href="https://www.easysend.pl/" className={css.payItem}>
                   <img
-                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678304138/this-is-retoucher/payment/easysend_enxzm3.jpg"
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678390371/this-is-retoucher/payment/_MGL1282_6_dsfg5k.png"
                     alt="easysend"
+                    className={css.payIcon}
                   />
                   <span className={css.payTitle}>EasySend</span>
                 </a>
                 <a
-                  href="https://www.paypal.com/ru/home"
+                  href="https://www.westernunion.com/us/en/home.html"
                   className={css.payItem}
                 >
                   <img
-                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678304139/this-is-retoucher/payment/western-union-logo-high-res-11563546722x1pkn9b2ds_1_stmtm6.jpg"
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678390371/this-is-retoucher/payment/western-union-logo-high-res-11563546722x1pkn9b2ds_1_mdqber.png"
                     alt="westernUnion"
                   />
                   <span className={css.payTitle}>WesternUnion</span>
                 </a>
               </div>
               <img
-                src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678301482/this-is-retoucher/Iphone_s12k6q.png"
+                src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678389919/this-is-retoucher/Iphone_mudvy1.png"
                 alt="iphone"
                 className={css.iphone}
               />

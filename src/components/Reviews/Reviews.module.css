@@ -49,3 +49,9 @@
   width: 35px;
   height: 35px;
 }
+
+.reviewImage {
+  width: 167px;
+  height: 296px;
+  border-radius: 10px;
+}

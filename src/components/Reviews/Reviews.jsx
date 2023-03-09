@@ -28,36 +28,69 @@ export function Reviews() {
                 draggable
                 hasArrows
                 slidesToShow={3}
-                slidesToScroll={1}
+                slidesToScroll={3}
               >
                 <div className={css.reviewCard}>
                   <img
-                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678367816/this-is-retoucher/reviews/review-1_nmwfzl.jpg"
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678388076/this-is-retoucher/reviews/rev1_ovibqv.jpg"
                     alt="review1"
+                    className={css.reviewImage}
                   />
                 </div>
                 <div className={css.reviewCard}>
                   <img
-                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678367816/this-is-retoucher/reviews/review-1_nmwfzl.jpg"
-                    alt="review1"
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678388076/this-is-retoucher/reviews/rev2_pbu8nz.jpg"
+                    alt="review2"
+                    className={css.reviewImage}
                   />
                 </div>
                 <div className={css.reviewCard}>
                   <img
-                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678367816/this-is-retoucher/reviews/review-1_nmwfzl.jpg"
-                    alt="review1"
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678388076/this-is-retoucher/reviews/rev3_yzw6ft.jpg"
+                    alt="review3"
+                    className={css.reviewImage}
                   />
                 </div>
                 <div className={css.reviewCard}>
                   <img
-                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678367816/this-is-retoucher/reviews/review-1_nmwfzl.jpg"
-                    alt="review1"
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678388076/this-is-retoucher/reviews/rev4_ijflbq.jpg"
+                    alt="review4"
+                    className={css.reviewImage}
                   />
                 </div>
                 <div className={css.reviewCard}>
                   <img
-                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678367816/this-is-retoucher/reviews/review-1_nmwfzl.jpg"
-                    alt="review1"
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678388077/this-is-retoucher/reviews/rev5_lcdmfb.jpg"
+                    alt="review5"
+                    className={css.reviewImage}
+                  />
+                </div>
+                <div className={css.reviewCard}>
+                  <img
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678388077/this-is-retoucher/reviews/rev6_j9v6ng.jpg"
+                    alt="review6"
+                    className={css.reviewImage}
+                  />
+                </div>
+                <div className={css.reviewCard}>
+                  <img
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678388077/this-is-retoucher/reviews/rev7_uxbazt.jpg"
+                    alt="review7"
+                    className={css.reviewImage}
+                  />
+                </div>
+                <div className={css.reviewCard}>
+                  <img
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678388077/this-is-retoucher/reviews/rev8_wnpesy.jpg"
+                    alt="review8"
+                    className={css.reviewImage}
+                  />
+                </div>
+                <div className={css.reviewCard}>
+                  <img
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678388077/this-is-retoucher/reviews/rev9_f5fhym.jpg"
+                    alt="review9"
+                    className={css.reviewImage}
                   />
                 </div>
               </Glider>

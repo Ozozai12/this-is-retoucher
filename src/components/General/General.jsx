@@ -18,19 +18,19 @@ export function General() {
         </div>
         <div className={css.photoOne}>
           <img
-            src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678224123/this-is-retoucher/gen1_spauje.jpg"
+            src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678224123/this-is-retoucher/gen1_2x_nbxing.jpg"
             alt="women1"
           />
         </div>
         <div className={css.photoTwo}>
           <img
-            src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678224122/this-is-retoucher/gen2_hofj1a.jpg"
+            src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678224123/this-is-retoucher/gen2_2x_fncxhl.jpg"
             alt="women2"
           />
         </div>
         <div className={css.photoThree}>
           <img
-            src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678224122/this-is-retoucher/gen3_skffnl.jpg"
+            src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678224123/this-is-retoucher/gen3_2x_lco0bs.jpg"
             alt="women3"
           />
         </div>

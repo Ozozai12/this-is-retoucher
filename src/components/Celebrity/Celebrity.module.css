@@ -1,0 +1,233 @@
+.container {
+  margin: 0 auto;
+  width: 1280px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.pageContainer {
+  padding: 67px;
+  margin: 0 auto;
+  width: 704px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.assetContainerOne {
+  position: relative;
+  margin-right: 41px;
+  width: 336px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.photoOne {
+  width: 336px;
+  height: 409px;
+}
+
+.frameOne {
+  position: absolute;
+  top: -27px;
+  right: 5px;
+  width: 358px;
+  height: 450px;
+  border: 1px solid #000000;
+}
+
+.titleOne {
+  position: absolute;
+  bottom: 290px;
+  left: -310px;
+  font-family: 'Cambo';
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
+
+  color: #858585;
+
+  transform: rotate(-90deg);
+}
+
+.nameOne {
+  display: block;
+  margin-top: 22px;
+
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.roleOne {
+  color: #c9c2af;
+}
+
+.assetContainerTwo {
+  position: relative;
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.photoTwo {
+  width: 327px;
+  height: 475px;
+  z-index: 2;
+}
+
+.frameTwo {
+  position: absolute;
+  width: 358px;
+  height: 450px;
+  bottom: 55px;
+  right: -40px;
+  z-index: 1;
+  border: 1px solid #000000;
+}
+
+.titleTwo {
+  position: absolute;
+  bottom: 81px;
+  right: 7px;
+  z-index: 2;
+
+  font-family: 'Cambo';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 0.085em;
+
+  color: #ffffff;
+}
+
+.nameTwo {
+  display: block;
+  margin-top: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.roleTwo {
+  display: block;
+  color: #c9c2af;
+}
+
+.assetContainerThree {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 41px;
+  width: 217px;
+}
+
+.photoThree {
+  width: 217px;
+  height: 375px;
+  margin-top: -53px;
+  z-index: 1;
+}
+
+.frameThree {
+  position: absolute;
+  top: -25px;
+  right: 25px;
+  width: 224px;
+  height: 359px;
+  border: 1px solid #000000;
+}
+
+.titleThree {
+  position: absolute;
+  bottom: 215px;
+  right: 85px;
+  font-family: 'Cambo';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.085em;
+  color: #d6d6d6;
+
+  transform: rotate(-90deg);
+}
+
+.nameThree {
+  display: block;
+  margin-top: 24px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.roleThree {
+  display: block;
+  color: #c9c2af;
+}
+
+.assetContainerFour {
+  position: relative;
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.photoFour {
+  margin-top: 32px;
+  width: 327px;
+  height: 242px;
+  z-index: 1;
+}
+
+.frameFour {
+  position: absolute;
+  top: 44px;
+  left: 12px;
+  width: 349px;
+  height: 237px;
+  border: 1px solid #000000;
+}
+
+.titleFour {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  font-family: 'Cambo';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.125em;
+  color: #adadad;
+}
+
+.nameFour {
+  display: block;
+  margin-top: 32px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.roleFour {
+  display: block;
+  color: #c9c2af;
+}

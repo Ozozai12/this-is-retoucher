@@ -44,27 +44,27 @@ export function About() {
           <span className={css.tapeTextOne}>This is retoucher</span>
           <span className={css.tapeTextTwo}>photo</span>
           <img
-            src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678280069/this-is-retoucher/photo-tape_euxwd3.png"
+            src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678389304/this-is-retoucher/photo-tape_o3vk4o.png"
             alt="tape"
             className={css.tape}
           />
           <img
-            src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678280048/this-is-retoucher/about1_spjqaj.jpg"
+            src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678389295/this-is-retoucher/about1_u0nvqt.jpg"
             alt="women no hat"
             className={css.photoOne}
           />
           <img
-            src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678280048/this-is-retoucher/about2_hoetdy.jpg"
+            src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678389295/this-is-retoucher/aout2_zencjq.jpg"
             alt="women sitting"
             className={css.photoTwo}
           />
           <img
-            src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678280048/this-is-retoucher/about3_xmiktj.jpg"
+            src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678389295/this-is-retoucher/about3_kg8wvb.jpg"
             alt="women with hat"
             className={css.photoThree}
           />
           <img
-            src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678280048/this-is-retoucher/about4_mvpyug.jpg"
+            src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678389295/this-is-retoucher/about4_h0ksfm.jpg"
             alt="women sleeps tiny"
             className={css.photoFour}
           />
