@@ -1,0 +1,51 @@
+.reviewsSection {
+  background-image: url('https://res.cloudinary.com/dmadhdzzm/image/upload/v1678353750/this-is-retoucher/backReview_fdty25.jpg');
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1280px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.laptop {
+  padding-top: 217px;
+  margin-left: 133px;
+  width: 712px;
+  height: 459px;
+  background-image: url('https://res.cloudinary.com/dmadhdzzm/image/upload/v1678353750/this-is-retoucher/small_samsung_galaxy_tab_s7_74dbd026ab_1_oknpvr.jpg');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.laptopScreen {
+  margin-top: 14px;
+  margin-left: 16px;
+  width: 680px;
+  height: 432px;
+  background: #e1dccd;
+  border-radius: 10px;
+}
+
+.gliderContainer {
+  padding-top: 50px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.reviewCard {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  margin-top: 50px;
+  width: 35px;
+  height: 35px;
+}
