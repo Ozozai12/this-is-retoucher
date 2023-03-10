@@ -1,0 +1,26 @@
+.logoContainer {
+  margin-right: 62px;
+  font-family: 'Inter';
+  color: #555555;
+  cursor: pointer;
+}
+
+.this {
+  display: block;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: -30px;
+}
+
+.is {
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.retoucher {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  border-bottom: 1px solid #555555;
+}

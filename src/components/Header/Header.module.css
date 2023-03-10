@@ -1,7 +1,7 @@
 .header {
   background-color: rgba(201, 194, 175, 0.72);
   padding-top: 20px;
-  padding-bottom: 28px;
+  padding-bottom: 30px;
 }
 
 .container {
@@ -14,7 +14,6 @@
 .langContainer {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 11px;
   color: #fff;
 }
 
@@ -30,9 +29,8 @@
 
 .headerContainer {
   display: flex;
-  align-items: center;
+  align-items: last baseline;
   justify-content: space-between;
-  padding-left: 8px;
   padding-right: 8px;
 }
 
@@ -42,10 +40,14 @@
 }
 
 .navItem:not(:last-child) {
-  margin-right: 46px;
+  margin-right: 40px;
 }
 
 .navItem:hover {
   color: #555;
   border-bottom: 1px solid #555;
+}
+
+.logoItem:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }

@@ -1,7 +1,10 @@
-import { StyledLink } from './Header.styled';
+import { StyledLink, StyledLogoLink } from './Header.styled';
 import { IconContext } from 'react-icons';
 import { AiFillCaretDown } from 'react-icons/ai';
 import css from './Header.module.css';
+import { Link } from 'react-router-dom';
+
+import { Logo } from 'components/Logo/Logo';
 
 export const Header = () => {
   return (
@@ -16,40 +19,39 @@ export const Header = () => {
           </div>
         </div>
         <div className={css.headerContainer}>
-          <div className={css.navContainer}>
-            <StyledLink to="/about" className={css.navItem}>
-              About me
-            </StyledLink>
-            <StyledLink to="/payment" className={css.navItem}>
-              Payment
-            </StyledLink>
-            <StyledLink to="/reviews" className={css.navItem}>
-              Reviews
-            </StyledLink>
-          </div>
-          <div className={css.navContainer}>
-            <StyledLink to="/celebrity" className={css.navItem}>
-              Celebrity
-            </StyledLink>
-            <StyledLink to="/magazines" className={css.navItem}>
-              Magazines
-            </StyledLink>
-            <StyledLink to="/beauty" className={css.navItem}>
-              Beauty
-            </StyledLink>
-            <StyledLink to="/pregnancy" className={css.navItem}>
-              Pregnancy
-            </StyledLink>
-            <StyledLink to="/family" className={css.navItem}>
-              Family
-            </StyledLink>
-            <StyledLink to="/before-after" className={css.navItem}>
-              Before/After
-            </StyledLink>
-            <StyledLink to="/18+" className={css.navItem}>
-              18+
-            </StyledLink>
-          </div>
+          <StyledLogoLink to="/" className={css.logoItem}>
+            <Logo />
+          </StyledLogoLink>
+          <StyledLink to="/about" className={css.navItem}>
+            About me
+          </StyledLink>
+          <StyledLink to="/payment" className={css.navItem}>
+            Payment
+          </StyledLink>
+          <StyledLink to="/reviews" className={css.navItem}>
+            Reviews
+          </StyledLink>
+          <StyledLink to="/celebrity" className={css.navItem}>
+            Celebrity
+          </StyledLink>
+          <StyledLink to="/magazines" className={css.navItem}>
+            Magazines
+          </StyledLink>
+          <StyledLink to="/beauty" className={css.navItem}>
+            Beauty
+          </StyledLink>
+          <StyledLink to="/pregnancy" className={css.navItem}>
+            Pregnancy
+          </StyledLink>
+          <StyledLink to="/family" className={css.navItem}>
+            Family
+          </StyledLink>
+          <StyledLink to="/before-after" className={css.navItem}>
+            Before/After
+          </StyledLink>
+          <StyledLink to="/18+" className={css.navItem}>
+            18+
+          </StyledLink>
         </div>
       </div>
     </div>
