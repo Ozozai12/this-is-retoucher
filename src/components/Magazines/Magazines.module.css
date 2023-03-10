@@ -1,0 +1,41 @@
+.container {
+  margin: 0 auto;
+  width: 1280px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.pageContainer {
+  padding-left: 53px;
+  padding-right: 36px;
+  padding-top: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.columnContainerOne {
+  width: 252px;
+}
+
+.columnContainerTwo {
+  width: 197px;
+}
+
+.columnContainerThree {
+  width: 375px;
+}
+
+.columnContainerFour {
+  width: 305px;
+}
+
+.magazinePhoto {
+  margin-bottom: 20px;
+}
+
+.innerPhotoContainer {
+  max-width: 375px;
+  height: 263px;
+  display: flex;
+  justify-content: space-between;
+}
