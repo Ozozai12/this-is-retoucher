@@ -2,7 +2,6 @@ import { StyledLink, StyledLogoLink } from './Header.styled';
 import { IconContext } from 'react-icons';
 import { AiFillCaretDown } from 'react-icons/ai';
 import css from './Header.module.css';
-import { Link } from 'react-router-dom';
 
 import { Logo } from 'components/Logo/Logo';
 
