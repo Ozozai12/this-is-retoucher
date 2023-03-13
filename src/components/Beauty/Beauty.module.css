@@ -1,0 +1,176 @@
+.container {
+  margin: 0 auto;
+  width: 1280px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.pageContainerUpper {
+  padding-top: 43px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-bottom: 27px;
+  margin-right: 265px;
+  width: 758px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageContainerLower {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: 265px;
+  width: 792px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.assetContainerOne {
+  position: relative;
+  width: 345px;
+}
+
+.photoOne {
+  width: 345px;
+  height: 417px;
+  z-index: 1;
+}
+
+.frameOne {
+  position: absolute;
+  bottom: -12px;
+  right: 20px;
+  width: 359px;
+  height: 378px;
+  border: 1px solid #000000;
+  z-index: 0;
+}
+
+.titleOne {
+  position: absolute;
+  bottom: 145px;
+  left: -320px;
+  font-family: 'Cambo';
+  font-size: 64px;
+  line-height: 72px;
+
+  color: #858585;
+
+  transform: rotate(-90deg);
+}
+
+.assetContainerTwo {
+  position: relative;
+  width: 355px;
+}
+
+.photoTwo {
+  width: 355px;
+  height: 417px;
+  z-index: 1;
+}
+
+.frameTwo {
+  position: absolute;
+  width: 342px;
+  height: 407px;
+  bottom: 28px;
+  right: -37px;
+  z-index: 0;
+  border: 1px solid #000000;
+}
+
+.titleTwo {
+  position: absolute;
+  bottom: -5px;
+  right: 7px;
+  z-index: 0;
+
+  font-family: 'Cambo';
+  font-size: 48px;
+  line-height: 54px;
+  letter-spacing: 0.085em;
+
+  color: #ffffff;
+}
+
+.assetContainerThree {
+  position: relative;
+  display: flex;
+  width: 437px;
+  margin-right: 72px;
+}
+
+.photoThree {
+  width: 437px;
+  height: 308px;
+  z-index: 1;
+}
+
+.frameThree {
+  position: absolute;
+  bottom: -31px;
+  right: 19px;
+  width: 476px;
+  height: 307px;
+  z-index: 0;
+  border: 1px solid #000000;
+}
+
+.titleThree {
+  position: absolute;
+  bottom: -75px;
+  right: 0;
+  font-family: 'Cambo';
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.085em;
+  color: #d6d6d6;
+}
+
+.assetContainerFour {
+  position: relative;
+  width: 283px;
+}
+
+.photoFour {
+  width: 283px;
+  height: 339px;
+  z-index: 1;
+}
+
+.frameFour {
+  position: absolute;
+  top: 31px;
+  right: 16px;
+  width: 292px;
+  height: 351px;
+  border: 1px solid #000000;
+  z-index: 0;
+}
+
+.titleFour {
+  position: absolute;
+  bottom: -40px;
+  right: 30px;
+  font-family: 'Cambo';
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.125em;
+  color: #adadad;
+}
+
+.titleFive {
+  position: absolute;
+  bottom: 175px;
+  left: 120px;
+  font-family: 'Cambo';
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.085em;
+
+  color: #d6d6d6;
+
+  transform: rotate(-90deg);
+}
