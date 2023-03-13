@@ -1,0 +1,33 @@
+.container {
+  margin: 0 auto;
+  width: 1280px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.pageContainer {
+  width: 929px;
+  padding-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftColumn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 434px;
+}
+
+.rightColumn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 475px;
+}
+
+.pregPhoto {
+  margin-bottom: 20px;
+}
