@@ -28,10 +28,12 @@
 
 .assetContainerOne {
   position: relative;
+  display: flex;
   width: 345px;
 }
 
 .photoOne {
+  display: block;
   width: 345px;
   height: 417px;
   z-index: 1;
@@ -62,16 +64,19 @@
 
 .assetContainerTwo {
   position: relative;
+  display: flex;
   width: 355px;
 }
 
 .photoTwo {
+  display: block;
   width: 355px;
   height: 417px;
   z-index: 1;
 }
 
 .frameTwo {
+  display: block;
   position: absolute;
   width: 342px;
   height: 407px;
@@ -85,8 +90,7 @@
   position: absolute;
   bottom: -5px;
   right: 7px;
-  z-index: 0;
-
+  z-index: 2;
   font-family: 'Cambo';
   font-size: 48px;
   line-height: 54px;
@@ -131,6 +135,7 @@
 
 .assetContainerFour {
   position: relative;
+  display: flex;
   width: 283px;
 }
 
@@ -142,12 +147,12 @@
 
 .frameFour {
   position: absolute;
-  top: 31px;
+  bottom: -44px;
   right: 16px;
   width: 292px;
   height: 351px;
-  border: 1px solid #000000;
   z-index: 0;
+  border: 1px solid #000000;
 }
 
 .titleFour {
@@ -169,7 +174,6 @@
   font-size: 40px;
   line-height: 45px;
   letter-spacing: 0.085em;
-
   color: #d6d6d6;
 
   transform: rotate(-90deg);
