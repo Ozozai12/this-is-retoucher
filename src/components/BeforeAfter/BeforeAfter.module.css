@@ -1,0 +1,35 @@
+.container {
+  margin: 0 auto;
+  width: 1280px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.pageContainer {
+  padding-top: 62px;
+  margin-left: 73px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftColumn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 583px;
+}
+
+.rightColumn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 583px;
+}
+
+.beforeafterPhoto {
+  margin-bottom: 55px;
+}
+
+.beforeafterPhoto:nth-child(even) {
+  margin-left: 20px;
+}
