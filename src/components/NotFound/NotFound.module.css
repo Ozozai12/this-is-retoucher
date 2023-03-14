@@ -1,0 +1,60 @@
+.notFoundSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+}
+
+.number {
+  display: block;
+  font-family: 'Monoton';
+  font-size: 140px;
+  line-height: 218px;
+  color: #afc6dc;
+}
+
+.error {
+  display: block;
+  margin-top: -30px;
+  font-family: 'Frank Ruhl Libre';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+  color: #5389c0;
+}
+.pageNotFound {
+  display: block;
+  font-family: 'Frank Ruhl Libre';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+
+  color: #5389c0;
+
+  margin-bottom: 45px;
+}
+
+.backButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 214px;
+  height: 55px;
+  background: #b0589c;
+  border-radius: 10px;
+  font-family: 'Frank Ruhl Libre';
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.notFoundImage {
+  width: 100vh;
+}

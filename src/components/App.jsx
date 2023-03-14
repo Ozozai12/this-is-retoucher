@@ -12,6 +12,7 @@ import { PregnancyPage } from 'pages/Pregnancy';
 import { FamilyPage } from 'pages/Family';
 import { BeforeAfterPage } from 'pages/BeforeAfter';
 import { EighteenPage } from 'pages/Eighteen';
+import { NotFoundPage } from 'pages/NotFound';
 
 import css from './App.module.css';
 
@@ -32,6 +33,7 @@ export const App = () => {
           <Route path="before-after" element={<BeforeAfterPage />} />
           <Route path="18+" element={<EighteenPage />} />
         </Route>
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>
   );

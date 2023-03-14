@@ -1,0 +1,39 @@
+.container {
+  margin: 0 auto;
+  width: 1280px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.pageContainer {
+  padding-left: 218px;
+  padding-right: 124px;
+  padding-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.columnContainerOne {
+  width: 197px;
+}
+
+.columnContainerTwo {
+  width: 238px;
+}
+
+.columnContainerThree {
+  width: 197px;
+}
+
+.columnContainerFour {
+  width: 246px;
+}
+
+.eighteenPhoto {
+  margin-bottom: 20px;
+}
+
+.doublePhotoContainer {
+  display: flex;
+  justify-content: space-between;
+}
