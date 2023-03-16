@@ -7,7 +7,7 @@ import css from './Header.module.css';
 
 import { Logo } from 'components/Logo/Logo';
 
-export const Header = () => {
+export const Header = ({ onMenuOpen }) => {
   return (
     <div className={css.header}>
       <div className={css.container}>
@@ -54,11 +54,11 @@ export const Header = () => {
             18+
           </StyledLink>
         </div>
-        <div className={css.burger}>
+        <span className={css.burger} onClick={onMenuOpen}>
           <IconContext.Provider value={{ className: css.burgerIcon }}>
             <RxHamburgerMenu />
           </IconContext.Provider>
-        </div>
+        </span>
       </div>
     </div>
   );
