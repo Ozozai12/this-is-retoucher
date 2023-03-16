@@ -6,6 +6,15 @@
   height: 100vh;
 }
 
+.pageTitle {
+  display: none;
+  margin-top: 34px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #c9c2af;
+}
+
 .container {
   margin: 0 auto;
   width: 1280px;
@@ -22,6 +31,13 @@
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: 100% 100%;
+}
+
+.laptopContainer {
+  margin: 0 auto;
+  width: 1280px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .laptopScreen {
@@ -54,4 +70,39 @@
   width: 167px;
   height: 296px;
   border-radius: 10px;
+}
+
+@media screen and (min-width: 360.9px) and (max-width: 768px) {
+  .container {
+    width: 628px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .laptopContainer {
+    width: 704px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 296px;
+  }
+
+  .pageTitle {
+    display: block;
+  }
+
+  .reviewsSection {
+    background-image: none;
+  }
+
+  .laptop {
+    padding-top: 296px;
+    margin-left: 0;
+    width: 704px;
+    height: 454px;
+  }
+
+  .laptopScreen {
+    margin-top: 9px;
+    margin-left: 12px;
+  }
 }

@@ -1,11 +1,12 @@
+import clsx from 'clsx';
 import { IconContext } from 'react-icons';
 import { AiFillInstagram } from 'react-icons/ai';
 import { RiMailAddLine } from 'react-icons/ri';
 import css from './Sidebar.module.css';
 
-export function Sidebar() {
+export function Sidebar({ variant }) {
   return (
-    <div className={css.sidebar}>
+    <div className={clsx(css.sidebar, css[variant])}>
       <a
         href="https://instagram.com/this_is_retoucher?igshid=YmMyMTA2M2Y="
         className={css.frame}

@@ -4,7 +4,7 @@ import css from './Payment.module.css';
 export function Payment() {
   return (
     <div className={css.container}>
-      <Sidebar />
+      <Sidebar variant="payment" />
       <h1 className={css.pageTitle}>Payment</h1>
       <div className={css.pageContainer}>
         <div className={css.priceContainer}>

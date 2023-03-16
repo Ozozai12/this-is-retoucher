@@ -11,6 +11,10 @@ export function Reviews() {
   return (
     <div className={css.reviewsSection}>
       <div className={css.container}>
+        <h1 className={css.pageTitle}>Reviews</h1>
+        <Sidebar variant="reviews" />
+      </div>
+      <div className={css.laptopContainer}>
         <div className={css.laptop}>
           <div className={css.laptopScreen}>
             <div className={css.gliderContainer}>
@@ -98,7 +102,6 @@ export function Reviews() {
           </div>
         </div>
       </div>
-      <Sidebar />
     </div>
   );
 }
