@@ -5,8 +5,17 @@
   padding-right: 80px;
 }
 
+.pageTitle {
+  display: none;
+  margin-top: 34px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #c9c2af;
+}
+
 .pageContainer {
-  padding: 67px;
+  padding-top: 67px;
   margin: 0 auto;
   width: 704px;
   display: flex;
@@ -197,8 +206,8 @@
 
 .frameFour {
   position: absolute;
-  top: 44px;
-  left: 12px;
+  top: 46px;
+  left: 14px;
   width: 349px;
   height: 237px;
   border: 1px solid #000000;
@@ -230,4 +239,107 @@
 .roleFour {
   display: block;
   color: #c9c2af;
+}
+
+@media screen and (min-width: 360.9px) and (max-width: 768px) {
+  .container {
+    width: 628px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .pageTitle {
+    display: block;
+  }
+
+  .pageContainer {
+    padding-top: 48px;
+    width: 550px;
+  }
+
+  .assetContainerOne {
+    width: 262.67px;
+    margin-right: 32px;
+  }
+
+  .photoOne {
+    width: 262.67px;
+    height: 315.99px;
+  }
+
+  .frameOne {
+    top: -23px;
+    width: 279.87px;
+    height: 347.66px;
+  }
+
+  .titleOne {
+    font-size: 46px;
+    line-height: 52px;
+    bottom: 265px;
+    left: -230px;
+  }
+
+  .assetContainerTwo {
+    width: 255px;
+  }
+
+  .photoTwo {
+    width: 255.63px;
+    height: 366.98px;
+  }
+
+  .frameTwo {
+    width: 279.87px;
+    height: 347.66px;
+    bottom: 60px;
+    right: -33px;
+  }
+
+  .titleTwo {
+    font-size: 24px;
+    line-height: 27px;
+  }
+
+  .assetContainerThree {
+    margin-right: 32px;
+    width: 170px;
+  }
+
+  .photoThree {
+    margin-top: -35px;
+    width: 169.64px;
+    height: 289.72px;
+  }
+
+  .frameThree {
+    top: -15px;
+    right: 15px;
+    width: 175.11px;
+    height: 277.36px;
+  }
+
+  .titleThree {
+    display: none;
+  }
+
+  .assetContainerFour {
+    width: 255.63px;
+  }
+
+  .photoFour {
+    width: 255.63px;
+    height: 187px;
+  }
+
+  .frameFour {
+    width: 272.83px;
+    height: 183.1px;
+  }
+
+  .titleFour {
+    top: -6px;
+    font-size: 32px;
+    line-height: 36px;
+  }
 }

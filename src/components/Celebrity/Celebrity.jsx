@@ -4,7 +4,8 @@ import css from './Celebrity.module.css';
 export function Celebrity() {
   return (
     <div className={css.container}>
-      <Sidebar />
+      <Sidebar variant="celebrity" />
+      <h1 className={css.pageTitle}>Celebrity</h1>
       <div className={css.pageContainer}>
         <div className={css.assetContainerOne}>
           <img
