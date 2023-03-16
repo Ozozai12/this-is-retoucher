@@ -24,3 +24,28 @@
   line-height: 19px;
   border-bottom: 1px solid #555555;
 }
+
+@media screen and (min-width: 360.9px) and (max-width: 768px) {
+  .logoContainer {
+    margin-right: 0;
+  }
+
+  .isRetoucher {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .is {
+    margin-top: 3px;
+  }
+
+  .this {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .retoucher {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}

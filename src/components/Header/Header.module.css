@@ -52,3 +52,62 @@
 .logoItem:hover {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+.burger {
+  display: none;
+}
+
+.burgerIcon {
+  color: #c9c2af;
+}
+
+@media screen and (max-width: 1439.9px) {
+  .header {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 360.9px) and (max-width: 768px) {
+  .header {
+    background-color: #ffffff;
+    height: 93px;
+    padding: 0;
+    box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.09);
+    border-radius: 0px 0px 45px 45px;
+    display: flex;
+    align-items: center;
+  }
+
+  .container {
+    width: 628px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .langContainer {
+    display: block;
+    color: #c9c2af;
+  }
+
+  .langIcon {
+    color: #c9c2af;
+  }
+
+  .headerContainer {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navItem {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+    align-items: center;
+  }
+}

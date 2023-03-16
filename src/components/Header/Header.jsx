@@ -1,6 +1,8 @@
 import { StyledLink, StyledLogoLink } from './Header.styled';
 import { IconContext } from 'react-icons';
 import { AiFillCaretDown } from 'react-icons/ai';
+import { RxHamburgerMenu } from 'react-icons/rx';
+
 import css from './Header.module.css';
 
 import { Logo } from 'components/Logo/Logo';
@@ -51,6 +53,11 @@ export const Header = () => {
           <StyledLink to="/18+" className={css.navItem}>
             18+
           </StyledLink>
+        </div>
+        <div className={css.burger}>
+          <IconContext.Provider value={{ className: css.burgerIcon }}>
+            <RxHamburgerMenu />
+          </IconContext.Provider>
         </div>
       </div>
     </div>

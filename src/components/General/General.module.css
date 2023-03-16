@@ -105,7 +105,6 @@
   position: absolute;
   right: 75px;
   bottom: 430px;
-  z-index: 4;
 
   font-family: 'Cambo', serif;
   font-style: normal;
@@ -132,4 +131,79 @@
   letter-spacing: 0.085em;
 
   color: #d6d6d6;
+}
+
+@media screen and (min-width: 360.9px) and (max-width: 768px) {
+  .container {
+    width: 628px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .photoOne {
+    width: 510px;
+    height: 325px;
+    left: 35px;
+    top: 166px;
+  }
+
+  .photoTwo {
+    width: 408px;
+    height: 256px;
+    left: 260px;
+    top: 455px;
+  }
+
+  .photoThree {
+    width: 195.79px;
+    height: 128.32px;
+    left: 55px;
+    top: 510px;
+  }
+
+  .frameOne {
+    left: 23px;
+    top: 183px;
+    width: 498.06px;
+    height: 385.62px;
+  }
+
+  .frameTwo {
+    width: 427px;
+    height: 278px;
+    left: 240px;
+    top: 440px;
+  }
+
+  .frameThree {
+    width: 228.2px;
+    height: 119.98px;
+    left: 31px;
+    top: 530px;
+  }
+
+  .titleOne {
+    left: -182px;
+    top: 125px;
+    font-size: 43px;
+    line-height: 48px;
+  }
+
+  .titleTwo {
+    display: none;
+  }
+
+  .titleThree {
+    right: 0;
+    bottom: 267px;
+    font-size: 39px;
+    line-height: 44px;
+
+    color: #adadad;
+  }
+
+  .titleFour {
+    left: 20px;
+    bottom: -45px;
+  }
 }
