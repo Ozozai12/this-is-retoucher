@@ -53,6 +53,17 @@
   font-size: 20px;
   line-height: 26px;
   color: #ffffff;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  background: #a0548f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.backButton:active {
+  background: #843071;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .notFoundImage {
