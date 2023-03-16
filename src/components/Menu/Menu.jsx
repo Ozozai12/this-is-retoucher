@@ -18,47 +18,47 @@ export function Menu({ onMenuClose }) {
           </Link>
         </li>
         <li>
-          <Link to="/about" className={css.menuItem}>
+          <Link to="/payment" className={css.menuItem}>
             Payment
           </Link>
         </li>
         <li>
-          <Link to="/about" className={css.menuItem}>
+          <Link to="/reviews" className={css.menuItem}>
             Reviews
           </Link>
         </li>
         <li>
-          <Link to="/about" className={css.menuItem}>
+          <Link to="/celebrity" className={css.menuItem}>
             Celebrity
           </Link>
         </li>
         <li>
-          <Link to="/about" className={css.menuItem}>
+          <Link to="/magazines" className={css.menuItem}>
             Magazines
           </Link>
         </li>
         <li>
-          <Link to="/about" className={css.menuItem}>
+          <Link to="/beauty" className={css.menuItem}>
             Beauty
           </Link>
         </li>
         <li>
-          <Link to="/about" className={css.menuItem}>
+          <Link to="/pregnancy" className={css.menuItem}>
             Pregnancy
           </Link>
         </li>
         <li>
-          <Link to="/about" className={css.menuItem}>
+          <Link to="/family" className={css.menuItem}>
             Family
           </Link>
         </li>
         <li>
-          <Link to="/about" className={css.menuItem}>
+          <Link to="/before-after" className={css.menuItem}>
             Before/After
           </Link>
         </li>
         <li>
-          <Link to="/about" className={css.menuItem}>
+          <Link to="/18+" className={css.menuItem}>
             18+
           </Link>
         </li>

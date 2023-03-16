@@ -5,6 +5,7 @@ export function Payment() {
   return (
     <div className={css.container}>
       <Sidebar />
+      <h1 className={css.pageTitle}>Payment</h1>
       <div className={css.pageContainer}>
         <div className={css.priceContainer}>
           <div className={css.priceThumb}>

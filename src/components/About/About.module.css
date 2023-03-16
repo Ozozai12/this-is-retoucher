@@ -10,6 +10,15 @@
   justify-content: space-between;
 }
 
+.pageTitle {
+  display: none;
+  margin-top: 34px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #c9c2af;
+}
+
 .textFrame {
   display: flex;
   align-items: center;
@@ -145,4 +154,33 @@
 
 .tapeTextPSAccent {
   color: #af0707;
+}
+
+@media screen and (min-width: 360.9px) and (max-width: 768px) {
+  .container {
+    width: 628px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .pageTitle {
+    display: block;
+  }
+
+  .pageContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .textFrame {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .tapeContainer {
+    margin-right: 0;
+    width: 548px;
+    height: 300px;
+  }
 }

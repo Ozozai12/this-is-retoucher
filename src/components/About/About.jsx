@@ -5,6 +5,7 @@ export function About() {
   return (
     <div className={css.container}>
       <Sidebar />
+      <h1 className={css.pageTitle}>About me</h1>
       <div className={css.pageContainer}>
         <div className={css.textFrame}>
           <div className={css.textContainer}>
