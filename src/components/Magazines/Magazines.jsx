@@ -4,7 +4,8 @@ import css from './Magazines.module.css';
 export function Magazines() {
   return (
     <div className={css.container}>
-      <Sidebar />
+      <Sidebar variant="magazines" />
+      <h1 className={css.pageTitle}>Magazines</h1>
       <div className={css.pageContainer}>
         <div className={css.columnContainerOne}>
           <img

@@ -5,6 +5,16 @@
   padding-right: 80px;
 }
 
+.pageTitle {
+  display: none;
+  margin-top: 34px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #c9c2af;
+  margin-left: 37px;
+}
+
 .pageContainer {
   padding-left: 65px;
   padding-top: 75px;
@@ -37,4 +47,47 @@
   height: 263px;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 360.9px) and (max-width: 768px) {
+  .container {
+    width: 704px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .pageTitle {
+    display: block;
+  }
+
+  .pageContainer {
+    padding-top: 122px;
+    padding-left: 39px;
+    padding-right: 0;
+  }
+
+  .columnContainerOne {
+    width: 140px;
+  }
+
+  .columnContainerTwo {
+    width: 109px;
+  }
+
+  .columnContainerThree {
+    width: 208px;
+  }
+
+  .columnContainerFour {
+    width: 169px;
+  }
+
+  .magazinePhoto {
+    margin-bottom: 12px;
+  }
+
+  .innerPhotoContainer {
+    max-width: 208px;
+    height: 147px;
+  }
 }

@@ -90,6 +90,10 @@
   }
 
   .langContainer {
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 24px;
+
     display: block;
     color: #c9c2af;
     margin-left: 37px;
