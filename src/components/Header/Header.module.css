@@ -81,9 +81,9 @@
   }
 
   .container {
-    width: 628px;
-    padding-left: 70px;
-    padding-right: 70px;
+    width: 704px;
+    padding-left: 32px;
+    padding-right: 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,6 +92,7 @@
   .langContainer {
     display: block;
     color: #c9c2af;
+    margin-left: 37px;
   }
 
   .langIcon {
@@ -111,5 +112,6 @@
   .burger {
     display: flex;
     align-items: center;
+    margin-right: 37px;
   }
 }

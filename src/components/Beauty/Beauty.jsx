@@ -4,7 +4,8 @@ import css from './Beauty.module.css';
 export function Beauty() {
   return (
     <div className={css.container}>
-      <Sidebar />
+      <Sidebar variant="beauty" />
+      <h1 className={css.pageTitle}>Beauty</h1>
       <div className={css.pageContainerUpper}>
         <div className={css.assetContainerOne}>
           <img
@@ -33,7 +34,8 @@ export function Beauty() {
             className={css.photoThree}
           />
           <div className={css.frameThree} />
-          <span className={css.titleThree}>retoucheretoucher</span>
+          <span className={css.titleThreeDesktop}>retoucheretoucher</span>
+          <span className={css.titleThreeTablet}>retoucher</span>
         </div>
         <div className={css.assetContainerFour}>
           <img
