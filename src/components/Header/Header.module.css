@@ -69,7 +69,7 @@
   }
 }
 
-@media screen and (min-width: 360.9px) and (max-width: 768px) {
+@media screen and (min-width: 767.9px) and (max-width: 1199.9px) {
   .header {
     display: inline-flex;
     align-items: center;
