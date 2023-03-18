@@ -4,7 +4,8 @@ import css from './Family.module.css';
 export function Family() {
   return (
     <div className={css.container}>
-      <Sidebar />
+      <Sidebar variant="family" />
+      <h1 className={css.pageTitle}>Family</h1>
       <div className={css.pageContainer}>
         <div className={css.columnContainerOne}>
           <img

@@ -1,7 +1,7 @@
 import { CgClose } from 'react-icons/cg';
 import { IconContext } from 'react-icons';
 import css from './Menu.module.css';
-import { Link } from 'react-router-dom';
+import { StyledLink } from './Menu.styled';
 
 export function Menu({ onMenuClose }) {
   return (
@@ -13,54 +13,54 @@ export function Menu({ onMenuClose }) {
       </span>
       <ul className={css.menuList} onClick={onMenuClose}>
         <li>
-          <Link to="/about" className={css.menuItem}>
+          <StyledLink to="/about" className={css.menuItem}>
             About me
-          </Link>
+          </StyledLink>
         </li>
         <li>
-          <Link to="/payment" className={css.menuItem}>
+          <StyledLink to="/payment" className={css.menuItem}>
             Payment
-          </Link>
+          </StyledLink>
         </li>
         <li>
-          <Link to="/reviews" className={css.menuItem}>
+          <StyledLink to="/reviews" className={css.menuItem}>
             Reviews
-          </Link>
+          </StyledLink>
         </li>
         <li>
-          <Link to="/celebrity" className={css.menuItem}>
+          <StyledLink to="/celebrity" className={css.menuItem}>
             Celebrity
-          </Link>
+          </StyledLink>
         </li>
         <li>
-          <Link to="/magazines" className={css.menuItem}>
+          <StyledLink to="/magazines" className={css.menuItem}>
             Magazines
-          </Link>
+          </StyledLink>
         </li>
         <li>
-          <Link to="/beauty" className={css.menuItem}>
+          <StyledLink to="/beauty" className={css.menuItem}>
             Beauty
-          </Link>
+          </StyledLink>
         </li>
         <li>
-          <Link to="/pregnancy" className={css.menuItem}>
+          <StyledLink to="/pregnancy" className={css.menuItem}>
             Pregnancy
-          </Link>
+          </StyledLink>
         </li>
         <li>
-          <Link to="/family" className={css.menuItem}>
+          <StyledLink to="/family" className={css.menuItem}>
             Family
-          </Link>
+          </StyledLink>
         </li>
         <li>
-          <Link to="/before-after" className={css.menuItem}>
+          <StyledLink to="/before-after" className={css.menuItem}>
             Before/After
-          </Link>
+          </StyledLink>
         </li>
         <li>
-          <Link to="/18+" className={css.menuItem}>
+          <StyledLink to="/18+" className={css.menuItem}>
             18+
-          </Link>
+          </StyledLink>
         </li>
       </ul>
     </div>
