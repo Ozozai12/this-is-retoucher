@@ -5,6 +5,16 @@
   padding-right: 80px;
 }
 
+.pageTitle {
+  display: none;
+  margin-top: 34px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #c9c2af;
+  margin-left: 37px;
+}
+
 .pageContainer {
   padding-left: 218px;
   padding-right: 124px;
@@ -36,4 +46,31 @@
 .doublePhotoContainer {
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 767.9px) and (max-width: 1199.9px) {
+  .container {
+    width: 704px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .pageTitle {
+    display: block;
+  }
+
+  .pageContainer {
+    padding-left: 122px;
+    padding-right: 127px;
+    padding-top: 3px;
+    flex-wrap: wrap;
+  }
+
+  .columnContainerThree {
+    margin-top: -80px;
+  }
+
+  .columnContainerFour {
+    width: 238px;
+  }
 }

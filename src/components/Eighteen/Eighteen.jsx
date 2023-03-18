@@ -4,7 +4,8 @@ import css from './Eighteen.module.css';
 export function Eighteen() {
   return (
     <div className={css.container}>
-      <Sidebar />
+      <Sidebar variant="eighteen" />
+      <h1 className={css.pageTitle}>18+</h1>
       <div className={css.pageContainer}>
         <div className={css.columnContainerOne}>
           <img

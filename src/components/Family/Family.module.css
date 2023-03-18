@@ -66,7 +66,11 @@
   }
 
   .columnContainerFour {
-    margin-top: -64px;
+    margin-top: -66px;
     width: 203px;
+  }
+
+  .familyPhoto {
+    margin-bottom: 20px;
   }
 }

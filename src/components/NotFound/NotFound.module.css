@@ -69,3 +69,22 @@
 .notFoundImage {
   width: 100vh;
 }
+
+@media screen and (min-width: 767.9px) and (max-width: 1199.9px) {
+  .notFoundSection {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .textSide {
+    padding-top: 89px;
+  }
+
+  .imageSide {
+    margin-top: 68px;
+  }
+
+  .notFoundImage {
+    width: 100%;
+  }
+}
