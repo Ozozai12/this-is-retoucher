@@ -9,7 +9,7 @@ export function Payment() {
       <div className={css.pageContainer}>
         <div className={css.priceContainer}>
           <div className={css.priceThumb}>
-            <span className={css.thumbText}>Price list</span>{' '}
+            <span className={css.thumbText}>Price list</span>
           </div>
           <div className={css.imageThumb}>
             <div className={css.imageContainer}>
@@ -65,7 +65,7 @@ export function Payment() {
                   className={css.payItem}
                 >
                   <img
-                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678390371/this-is-retoucher/payment/_MGL1282_3_su9biw.png"
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1679224330/this-is-retoucher/payment/_MGL1282_3_rptqn2.png"
                     alt="moneygram"
                     className={css.payIcon}
                   />
@@ -73,7 +73,7 @@ export function Payment() {
                 </a>
                 <a href="https://paysend.com" className={css.payItem}>
                   <img
-                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678390371/this-is-retoucher/payment/_MGL1282_2_jjbmzs.png"
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1679224330/this-is-retoucher/payment/_MGL1282_2_oafc0z.png"
                     alt="paysend"
                     className={css.payIcon}
                   />
@@ -89,7 +89,7 @@ export function Payment() {
                 </a>
                 <a href="https://www.easysend.pl/" className={css.payItem}>
                   <img
-                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678390371/this-is-retoucher/payment/_MGL1282_6_dsfg5k.png"
+                    src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1679224330/this-is-retoucher/payment/_MGL1282_6_cskyts.png"
                     alt="easysend"
                     className={css.payIcon}
                   />

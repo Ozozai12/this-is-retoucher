@@ -1,7 +1,6 @@
 import { StyledLink, StyledLogoLink } from './Header.styled';
 import { IconContext } from 'react-icons';
 import { AiFillCaretDown } from 'react-icons/ai';
-import { RxHamburgerMenu } from 'react-icons/rx';
 
 import css from './Header.module.css';
 
