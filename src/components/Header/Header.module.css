@@ -55,12 +55,30 @@
 
 .burger {
   display: none;
+  justify-content: space-between;
 }
 
-.burgerIcon {
-  width: 35px;
-  height: 35px;
-  color: #c9c2af;
+.upperLine {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #c9c2af;
+  margin-bottom: 5px;
+}
+
+.middleLine {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background-color: #c9c2af;
+  margin-bottom: 5px;
+}
+
+.lowerLine {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #c9c2af;
 }
 
 @media screen and (max-width: 1439.9px) {
@@ -87,7 +105,6 @@
   }
 
   .container {
-    width: 704px;
     padding-left: 32px;
     padding-right: 32px;
     display: flex;
@@ -121,7 +138,9 @@
 
   .burger {
     display: flex;
-    align-items: center;
-    margin-right: 37px;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    margin-right: 17px;
   }
 }

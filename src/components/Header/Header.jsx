@@ -54,11 +54,11 @@ export const Header = ({ onMenuOpen }) => {
             18+
           </StyledLink>
         </div>
-        <span className={css.burger} onClick={onMenuOpen}>
-          <IconContext.Provider value={{ className: css.burgerIcon }}>
-            <RxHamburgerMenu />
-          </IconContext.Provider>
-        </span>
+        <div className={css.burger} onClick={onMenuOpen}>
+          <span className={css.upperLine}></span>
+          <span className={css.middleLine}></span>
+          <span className={css.lowerLine}></span>
+        </div>
       </div>
     </div>
   );
