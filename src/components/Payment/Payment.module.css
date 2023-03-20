@@ -129,7 +129,7 @@
   justify-content: center;
   flex-wrap: wrap;
   top: 15px;
-  left: 125px;
+  left: 40px;
   width: 197px;
   height: 431px;
   background-color: #fff;
@@ -139,7 +139,7 @@
 .iphone {
   pointer-events: none;
   z-index: -1;
-  width: 445px;
+  width: 276px;
   height: 474px;
 }
 
@@ -183,7 +183,7 @@
 .payIcon {
   width: 40px;
   height: 40px;
-  outline: 1px solid #eaeaea;
+  border: 1px solid #eaeaea;
   border-radius: 10px;
 }
 
@@ -203,7 +203,7 @@
     align-items: center;
   }
 
-  .pageContainer:after {
+  .pageContainer::after {
     content: 'retoucheretoucherretoucheretoucher retoucheretoucherretoucheretoucher retoucheretoucherretoucheretoucher';
     font-size: 32px;
     line-height: 30px;
@@ -261,5 +261,142 @@
 
   .iphoneFrame {
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .container {
+    width: 358px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .pageTitle {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .pageContainer {
+    flex-wrap: wrap;
+  }
+
+  .pageContainer::after {
+    content: '';
+  }
+
+  .priceThumb {
+    position: relative;
+  }
+
+  .priceThumb::after {
+    position: absolute;
+    content: 'retoucheretoucher retoucheretoucher';
+    font-family: 'Cambo';
+    font-size: 32px;
+    line-height: 24px;
+    letter-spacing: 0.17em;
+    color: rgba(228, 228, 228, 0.4);
+    top: -50px;
+    left: -103px;
+  }
+
+  .priceContainer {
+    width: 358px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-top: 49px;
+    margin-left: 0;
+  }
+
+  .priceThumb {
+    margin: 0 auto 40px;
+    width: 150px;
+    height: 47px;
+    background: #555555;
+    border-radius: 10px;
+  }
+
+  .thumbText {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .imageThumb {
+    padding-left: 0;
+  }
+
+  .payPhoto {
+    width: 176px;
+    height: auto;
+  }
+
+  .priceTitle {
+    margin-top: 11px;
+  }
+
+  .priceValue {
+    margin-bottom: 0;
+  }
+
+  .payContainer {
+    margin: 51px auto 0;
+  }
+
+  .payThumb {
+    position: relative;
+    margin: 0 auto 63px;
+    width: 294px;
+    height: 119px;
+  }
+
+  .payThumb::before {
+    position: absolute;
+    content: 'retoucheretoucher';
+    font-family: 'Cambo';
+    font-size: 32px;
+    line-height: 24px;
+    letter-spacing: 0.17em;
+    color: rgba(228, 228, 228, 0.4);
+    top: -30px;
+    left: -33px;
+  }
+
+  .payThumb::after {
+    position: absolute;
+    content: 'retoucheretoucher retoucheretoucher';
+    font-family: 'Cambo';
+    font-size: 32px;
+    line-height: 24px;
+    letter-spacing: 0.17em;
+    color: rgba(228, 228, 228, 0.4);
+    bottom: -55px;
+    left: -33px;
+  }
+
+  .thumbText {
+    margin-left: 34px;
+    width: 254px;
+  }
+
+  .iphoneFrame {
+    margin-right: 0;
+    margin-bottom: 113px;
+  }
+
+  .iphoneFrame::after {
+    position: absolute;
+    content: 'retoucheretoucher retoucheretoucher retoucheretoucher retoucheretoucher';
+    font-family: 'Cambo';
+    font-size: 32px;
+    line-height: 24px;
+    letter-spacing: 0.17em;
+    color: rgba(228, 228, 228, 0.4);
+    bottom: -100px;
+    left: -40px;
+  }
+
+  .iphoneScreen {
+    top: 20px;
+    left: 40px;
   }
 }

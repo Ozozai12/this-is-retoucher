@@ -111,8 +111,13 @@
 
 @media screen and (max-width: 767.9px) {
   .sidebar {
-    width: 49px;
+    width: 42px;
+    height: 97px;
     top: 450px;
-    left: -8px;
+    left: 0;
+  }
+
+  .frame:not(:last-child) {
+    margin-bottom: 0;
   }
 }

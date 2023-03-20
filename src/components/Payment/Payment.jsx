@@ -1,38 +1,39 @@
+import { Footer } from 'components/Footer/Footer';
 import { Sidebar } from 'components/Sidebar/Sidebar';
 import css from './Payment.module.css';
 
 export function Payment() {
   return (
-    <div className={css.container}>
-      <Sidebar variant="payment" />
-      <h1 className={css.pageTitle}>Payment</h1>
-      <div className={css.pageContainer}>
-        <div className={css.priceContainer}>
-          <div className={css.priceThumb}>
-            <span className={css.thumbText}>Price list</span>
-          </div>
-          <div className={css.imageThumb}>
-            <div className={css.imageContainer}>
-              <img
-                src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678389626/this-is-retoucher/pay1_rrcq9n.jpg"
-                alt="pregnant women with flowers"
-                className={css.payPhoto}
-              />
-              <span className={css.priceTitle}>Basic</span>
-              <span className={css.priceValue}>from 5$</span>
+    <>
+      <div className={css.container}>
+        <h1 className={css.pageTitle}>Payment</h1>
+        <div className={css.pageContainer}>
+          <div className={css.priceContainer}>
+            <div className={css.priceThumb}>
+              <span className={css.thumbText}>Price list</span>
             </div>
-            <div className={css.imageContainer}>
-              <img
-                src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678389625/this-is-retoucher/pay2_r1wnij.jpg"
-                alt="woman's portrait"
-                className={css.payPhoto}
-              />
-              <span className={css.priceTitle}>High-end</span>
-              <span className={css.priceValue}>from 12$</span>
+            <div className={css.imageThumb}>
+              <div className={css.imageContainer}>
+                <img
+                  src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678389626/this-is-retoucher/pay1_rrcq9n.jpg"
+                  alt="pregnant women with flowers"
+                  className={css.payPhoto}
+                />
+                <span className={css.priceTitle}>Basic</span>
+                <span className={css.priceValue}>from 5$</span>
+              </div>
+              <div className={css.imageContainer}>
+                <img
+                  src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678389625/this-is-retoucher/pay2_r1wnij.jpg"
+                  alt="woman's portrait"
+                  className={css.payPhoto}
+                />
+                <span className={css.priceTitle}>High-end</span>
+                <span className={css.priceValue}>from 12$</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div>
+
           <div className={css.payContainer}>
             <div className={css.payThumb}>
               <span className={css.thumbText}>
@@ -107,7 +108,7 @@ export function Payment() {
                 </a>
               </div>
               <img
-                src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678389919/this-is-retoucher/Iphone_mudvy1.png"
+                src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1679340118/this-is-retoucher/2_rnnesi.png"
                 alt="iphone"
                 className={css.iphone}
               />
@@ -115,6 +116,8 @@ export function Payment() {
           </div>
         </div>
       </div>
-    </div>
+      <Sidebar variant="payment" />
+      <Footer />
+    </>
   );
 }
