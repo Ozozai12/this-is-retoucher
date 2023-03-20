@@ -133,20 +133,6 @@
   color: #d6d6d6;
 }
 
-.footerEmail {
-  display: none;
-  font-family: 'Inter';
-  font-size: 16px;
-  line-height: 19px;
-
-  color: #000000;
-
-  border-top: 1px solid #e4e4e4;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-}
-
 @media screen and (min-width: 768px) and (max-width: 1199.9px) {
   .container {
     width: 628px;
@@ -297,9 +283,5 @@
     line-height: 22px;
     left: 6px;
     bottom: -23px;
-  }
-
-  .footerEmail {
-    display: block;
   }
 }

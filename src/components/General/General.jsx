@@ -1,4 +1,5 @@
 import { Sidebar } from 'components/Sidebar/Sidebar';
+import { Footer } from 'components/Footer/Footer';
 import css from './General.module.css';
 
 export function General() {
@@ -36,8 +37,8 @@ export function General() {
           </div>
         </div>
       </div>
-      <p className={css.footerEmail}>r.retouch.photo@gmail.com</p>
       <Sidebar />
+      <Footer />
     </>
   );
 }
