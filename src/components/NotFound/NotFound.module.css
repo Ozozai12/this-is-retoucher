@@ -70,7 +70,7 @@
   width: 100vh;
 }
 
-@media screen and (min-width: 767.9px) and (max-width: 1199.9px) {
+@media screen and (min-width: 768px) and (max-width: 1199.9px) {
   .notFoundSection {
     justify-content: center;
     flex-wrap: wrap;

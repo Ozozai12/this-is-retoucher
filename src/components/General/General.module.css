@@ -133,7 +133,21 @@
   color: #d6d6d6;
 }
 
-@media screen and (min-width: 767.9px) and (max-width: 1199.9px) {
+.footerEmail {
+  display: none;
+  font-family: 'Inter';
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+
+  border-top: 1px solid #e4e4e4;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.9px) {
   .container {
     width: 628px;
     padding-left: 70px;
@@ -205,5 +219,87 @@
   .titleFour {
     left: 20px;
     bottom: -45px;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .container {
+    width: 336px;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 454px;
+  }
+
+  .photoOne {
+    width: 256px;
+    height: 165px;
+    left: 20px;
+    top: 84px;
+  }
+
+  .photoTwo {
+    width: 208px;
+    height: 130px;
+    left: 124px;
+    top: 229px;
+  }
+
+  .photoThree {
+    width: 100px;
+    height: 65px;
+    left: 20px;
+    top: 260px;
+  }
+
+  .frameOne {
+    width: 254.72px;
+    height: 196.22px;
+    left: 8px;
+    top: 93px;
+  }
+
+  .frameTwo {
+    width: 229.63px;
+    height: 148.07px;
+    left: 114px;
+    top: 224px;
+  }
+
+  .frameThree {
+    width: 116.71px;
+    height: 61.05px;
+    left: 13px;
+    top: 271px;
+  }
+
+  .titleOne {
+    left: -80px;
+    top: 65px;
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .titleTwo {
+    display: none;
+  }
+
+  .titleThree {
+    right: 12px;
+    bottom: 147px;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #adadad;
+  }
+
+  .titleFour {
+    font-size: 20px;
+    line-height: 22px;
+    left: 6px;
+    bottom: -23px;
+  }
+
+  .footerEmail {
+    display: block;
   }
 }
