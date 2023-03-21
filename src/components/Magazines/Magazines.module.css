@@ -42,6 +42,10 @@
   margin-bottom: 20px;
 }
 
+.innerPhotoContainer .magazinePhoto {
+  width: 179px;
+}
+
 .innerPhotoContainer {
   width: 375px;
   height: 263px;
