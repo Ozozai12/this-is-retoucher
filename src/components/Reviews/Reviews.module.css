@@ -67,13 +67,14 @@
 
 .leftArrow {
   margin-top: 30px;
-  margin-left: -210px;
+  margin-left: 37px;
   width: 35px;
   height: 35px;
 }
 
 .rightArrow {
   margin-top: 30px;
+  margin-left: -67px;
   width: 35px;
   height: 35px;
 }
@@ -137,9 +138,9 @@
   }
 
   .deviceContainer {
-    width: 328px;
-    padding-left: 21px;
-    padding-right: 21px;
+    width: 358px;
+    padding-left: 1px;
+    padding-right: 1px;
   }
 
   .device {
@@ -177,11 +178,11 @@
 
   .leftArrow {
     margin-top: 90px;
-    margin-left: -280px;
+    margin-left: 0;
   }
 
   .rightArrow {
     margin-top: 90px;
-    margin-right: -40px;
+    margin-right: 0;
   }
 }
