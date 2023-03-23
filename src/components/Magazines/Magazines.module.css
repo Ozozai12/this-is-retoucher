@@ -99,3 +99,73 @@
     height: 147px;
   }
 }
+
+@media screen and (max-width: 767.9px) {
+  .container {
+    width: 358px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .pageTitle {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .pageContainer {
+    padding: 26px 58px 38px 41px;
+    flex-wrap: wrap;
+  }
+
+  .columnContainerOne {
+    width: 140px;
+  }
+
+  .columnContainerTwo {
+    width: 109px;
+  }
+
+  .columnContainerThree {
+    width: 261px;
+  }
+
+  .columnContainerFour {
+    width: 261px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .columnContainerFour .magazinePhoto:nth-child(1) {
+    width: 121px;
+    height: 167px;
+    display: inline-block;
+  }
+
+  .columnContainerFour .magazinePhoto:nth-child(2) {
+    width: 125px;
+    margin-left: 12px;
+    display: inline-block;
+  }
+
+  .columnContainerFour .magazinePhoto:nth-child(3) {
+    margin-top: -5px;
+    width: 260px;
+  }
+
+  .magazinePhoto {
+    margin-bottom: 12px;
+  }
+
+  .innerPhotoContainer .magazinePhoto:nth-child(1) {
+    width: 121px;
+  }
+
+  .innerPhotoContainer .magazinePhoto:nth-child(2) {
+    width: 125px;
+  }
+
+  .innerPhotoContainer {
+    width: 261px;
+    height: 167px;
+  }
+}
