@@ -345,3 +345,140 @@
     line-height: 36px;
   }
 }
+
+@media screen and (max-width: 767.9px) {
+  .container {
+    width: 358px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .pageTitle {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .pageContainer {
+    padding-top: 42px;
+    width: 262px;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .assetContainerOne {
+    margin-right: 0;
+    width: 285px;
+  }
+
+  .photoOne {
+    width: 262.67px;
+    height: 315.99px;
+  }
+
+  .frameOne {
+    top: -19px;
+    right: 5px;
+    width: 279.87px;
+    height: 347.66px;
+  }
+
+  .titleOne {
+    bottom: 195px;
+    left: -175px;
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .nameOne {
+    margin-top: 19px;
+  }
+
+  .assetContainerTwo {
+    margin-top: 32px;
+    width: 255.63px;
+  }
+
+  .photoTwo {
+    margin-right: 29px;
+    width: 255.63px;
+    height: 366.98px;
+  }
+
+  .frameTwo {
+    width: 279.87px;
+    height: 347.66px;
+    bottom: 55px;
+    right: -4px;
+  }
+
+  .titleTwo {
+    bottom: 72px;
+    right: 38px;
+    font-size: 24px;
+    line-height: 27px;
+  }
+
+  .nameTwo {
+    margin-top: 19px;
+    margin-right: 29px;
+  }
+
+  .assetContainerThree {
+    margin-top: 28px;
+    width: 169.64px;
+  }
+
+  .photoThree {
+    width: 169.64px;
+    height: 289.72px;
+    margin-top: 0;
+    margin-right: 20px;
+  }
+
+  .frameThree {
+    top: 25px;
+    right: 35px;
+    width: 175.11px;
+    height: 277.36px;
+  }
+
+  .titleThree {
+    display: none;
+  }
+
+  .nameThree {
+    margin-right: 20px;
+  }
+
+  .assetContainerFour {
+    margin-top: 69px;
+    width: 255.63px;
+  }
+
+  .photoFour {
+    margin-top: 0;
+    margin-right: 40px;
+    width: 255.63px;
+    height: 186.97px;
+  }
+
+  .frameFour {
+    top: 10px;
+    left: -30px;
+    width: 272.83px;
+    height: 183.1px;
+  }
+
+  .nameFour {
+    margin-top: 24px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+  }
+
+  .titleFour {
+    font-size: 32px;
+    line-height: 36px;
+    top: -38px;
+    left: -38px;
+  }
+}
