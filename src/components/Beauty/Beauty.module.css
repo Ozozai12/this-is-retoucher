@@ -17,10 +17,7 @@
 
 .pageContainerUpper {
   padding-top: 43px;
-  margin-top: 0;
-  margin-left: auto;
-  margin-bottom: 27px;
-  margin-right: 265px;
+  margin: 0 265px 27px auto;
   width: 758px;
   display: flex;
   justify-content: space-between;
@@ -315,6 +312,139 @@
   }
 
   .titleFour {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .container {
+    width: 358px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .pageTitle {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .pageContainerUpper {
+    padding-top: 0;
+    margin-top: 51px;
+    width: 360px;
+    flex-wrap: wrap;
+  }
+
+  .pageContainerLower {
+    margin-top: 40px;
+    width: 360px;
+    flex-wrap: wrap;
+  }
+
+  .assetContainerOne {
+    width: 268.54px;
+    margin-left: 75px;
+    margin-bottom: 64px;
+  }
+
+  .photoOne {
+    width: 268.54px;
+    height: 329.84px;
+  }
+
+  .frameOne {
+    bottom: -12px;
+    right: 20px;
+    width: 279.44px;
+    height: 299px;
+  }
+
+  .titleOne {
+    bottom: 90px;
+    left: -170px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .assetContainerTwo {
+    width: 276.32px;
+    margin-left: 36px;
+  }
+
+  .photoTwo {
+    width: 276.32px;
+    height: 329.84px;
+  }
+
+  .frameTwo {
+    width: 266.21px;
+    height: 321.93px;
+    bottom: 23px;
+    right: -30px;
+  }
+
+  .titleTwo {
+    bottom: 0px;
+    right: 3px;
+    font-size: 24px;
+    line-height: 27px;
+  }
+
+  .assetContainerThree {
+    width: 307.22px;
+    margin-right: 6px;
+    margin-left: 46px;
+    margin-bottom: 106px;
+  }
+
+  .photoThree {
+    width: 307.22px;
+    height: 227.38px;
+  }
+
+  .frameThree {
+    bottom: -21px;
+    right: 9px;
+    width: 334.64px;
+    height: 226.64px;
+  }
+
+  .titleThreeDesktop {
+    display: none;
+  }
+
+  .titleThreeTablet {
+    display: block;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 0.155em;
+    bottom: -78px;
+    left: 0;
+  }
+
+  .assetContainerFour {
+    width: 220.28px;
+    margin-right: 60px;
+    margin-bottom: 104px;
+  }
+
+  .photoFour {
+    width: 220.28px;
+    height: 268.15px;
+  }
+
+  .frameFour {
+    bottom: -44px;
+    right: 16px;
+    width: 227.29px;
+    height: 277.64px;
+  }
+
+  .titleFour {
+    display: none;
+  }
+
+  .titleFive {
     display: none;
   }
 }
