@@ -394,12 +394,12 @@
   }
 
   .assetContainerTwo {
+    margin-right: 29px;
     margin-top: 32px;
     width: 255.63px;
   }
 
   .photoTwo {
-    margin-right: 29px;
     width: 255.63px;
     height: 366.98px;
   }
@@ -408,7 +408,7 @@
     width: 279.87px;
     height: 347.66px;
     bottom: 55px;
-    right: -4px;
+    right: -29px;
   }
 
   .titleTwo {
@@ -420,11 +420,11 @@
 
   .nameTwo {
     margin-top: 19px;
-    margin-right: 29px;
   }
 
   .assetContainerThree {
     margin-top: 28px;
+    margin-right: 65px;
     width: 169.64px;
   }
 
@@ -432,12 +432,11 @@
     width: 169.64px;
     height: 289.72px;
     margin-top: 0;
-    margin-right: 20px;
   }
 
   .frameThree {
     top: 25px;
-    right: 35px;
+    right: 20px;
     width: 175.11px;
     height: 277.36px;
   }
@@ -446,32 +445,28 @@
     display: none;
   }
 
-  .nameThree {
-    margin-right: 20px;
-  }
-
   .assetContainerFour {
     margin-top: 69px;
+    margin-right: 40px;
     width: 255.63px;
   }
 
   .photoFour {
     margin-top: 0;
-    margin-right: 40px;
+
     width: 255.63px;
     height: 186.97px;
   }
 
   .frameFour {
     top: 10px;
-    left: -30px;
+    left: 10px;
     width: 272.83px;
     height: 183.1px;
   }
 
   .nameFour {
     margin-top: 24px;
-    margin-right: 40px;
     margin-bottom: 20px;
   }
 
@@ -479,6 +474,6 @@
     font-size: 32px;
     line-height: 36px;
     top: -38px;
-    left: -38px;
+    left: 0;
   }
 }
