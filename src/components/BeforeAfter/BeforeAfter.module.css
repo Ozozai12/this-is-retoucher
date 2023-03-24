@@ -45,10 +45,6 @@
   margin-left: 20px;
 }
 
-/* .beforeafterPhoto:nth-child(n + 5) {
-  width: 255px;
-} */
-
 @media screen and (min-width: 768px) and (max-width: 1199.9px) {
   .container {
     width: 704px;
@@ -82,5 +78,44 @@
 
   .beforeafterPhoto:nth-child(even) {
     margin-left: 18px;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .container {
+    width: 358px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .pageTitle {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .pageContainer {
+    padding: 34px 20px 35px 20px;
+    margin-left: 0;
+    width: 319px;
+    flex-wrap: wrap;
+  }
+
+  .leftColumn {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .rightColumn {
+    width: 100%;
+  }
+
+  .beforeafterPhoto {
+    width: 154px;
+
+    margin-bottom: 11px;
+  }
+
+  .beforeafterPhoto:nth-child(even) {
+    margin-left: 10px;
   }
 }
