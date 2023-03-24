@@ -5,7 +5,7 @@ import { HiArrowCircleRight, HiArrowCircleLeft } from 'react-icons/hi';
 import { IconContext } from 'react-icons';
 
 import Glider from 'react-glider';
-import 'glider-js/glider.css';
+import './Glider.css';
 
 import { Footer } from 'components/Footer/Footer';
 
