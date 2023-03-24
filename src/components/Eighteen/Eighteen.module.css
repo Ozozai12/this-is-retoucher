@@ -48,6 +48,15 @@
   justify-content: space-between;
 }
 
+.doublePhotoContainer .eighteenPhoto:nth-child(1) {
+  width: 95px;
+  height: 100%;
+}
+
+.doublePhotoContainer .eighteenPhoto:nth-child(2) {
+  width: 131px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199.9px) {
   .container {
     width: 704px;
@@ -72,5 +81,69 @@
 
   .columnContainerFour {
     width: 238px;
+  }
+
+  .doublePhotoContainer .eighteenPhoto:nth-child(1) {
+    width: 95px;
+    height: 100%;
+  }
+
+  .doublePhotoContainer .eighteenPhoto:nth-child(2) {
+    width: 131px;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .container {
+    width: 358px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .pageTitle {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .pageContainer {
+    padding: 40px 12px 28px 12px;
+    margin-left: 0;
+    width: 333px;
+    flex-wrap: wrap;
+  }
+
+  .columnContainerOne {
+    width: 144px;
+  }
+
+  .columnContainerTwo {
+    width: 174px;
+  }
+
+  .columnContainerThree {
+    margin-top: -59px;
+    width: 144px;
+  }
+
+  .columnContainerFour {
+    width: 174px;
+  }
+
+  .eighteenPhoto {
+    margin-bottom: 15px;
+  }
+
+  .doublePhotoContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .doublePhotoContainer .eighteenPhoto:nth-child(1) {
+    width: 70px;
+    height: 100%;
+  }
+
+  .doublePhotoContainer .eighteenPhoto:nth-child(2) {
+    width: 95px;
   }
 }

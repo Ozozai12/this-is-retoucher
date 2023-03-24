@@ -59,14 +59,11 @@ export function Eighteen() {
               src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678790466/this-is-retoucher/18/img9_ng1jwu.jpg"
               alt="woman9"
               className={css.eighteenPhoto}
-              width={95}
-              style={{ height: 156 }}
             />
             <img
               src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678790466/this-is-retoucher/18/img10_iwrlsc.jpg"
               alt="woman10"
               className={css.eighteenPhoto}
-              width={131}
             />
           </div>
         </div>
