@@ -8,11 +8,11 @@
 .pageTitle {
   display: none;
   margin-top: 34px;
+  margin-left: 37px;
   font-weight: 400;
   font-size: 24px;
   line-height: 31px;
   color: #c9c2af;
-  margin-left: 37px;
 }
 
 .pageContainer {
@@ -133,5 +133,73 @@
 
   .image {
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .container {
+    width: 358px;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .pageTitle {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .pageContainer {
+    padding-top: 40px;
+    margin-bottom: 20px;
+    width: 296px;
+    flex-wrap: wrap;
+  }
+
+  .leftColumn {
+    width: 296px;
+  }
+
+  .rightColumn {
+    width: 296px;
+  }
+
+  .pregPhoto {
+    margin-bottom: 11px;
+  }
+
+  .leftColumn .pregPhoto:nth-child(3n + 1) {
+    width: 135px;
+  }
+
+  .leftColumn .pregPhoto:nth-child(3n + 2) {
+    width: 147px;
+  }
+
+  .leftColumn .pregPhoto:nth-child(3n + 3) {
+    width: 296px;
+  }
+
+  .leftColumn .pregPhoto:nth-child(7) {
+    width: 149px;
+  }
+
+  .leftColumn .pregPhoto:nth-child(8) {
+    width: 134px;
+  }
+
+  .rightColumn .pregPhoto:nth-child(3n + 1) {
+    width: 296px;
+  }
+
+  .rightColumn .pregPhoto:nth-child(3n + 2) {
+    width: 149px;
+  }
+
+  .rightColumn .pregPhoto:nth-child(3n + 3) {
+    width: 135px;
+  }
+
+  .image {
+    min-height: 100%;
   }
 }
