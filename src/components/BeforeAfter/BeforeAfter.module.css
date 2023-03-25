@@ -39,6 +39,7 @@
 .beforeafterPhoto {
   width: 281px;
   margin-bottom: 55px;
+  cursor: zoom-in;
 }
 
 .beforeafterPhoto:nth-child(even) {

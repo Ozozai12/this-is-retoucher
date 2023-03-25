@@ -40,6 +40,7 @@
 
 .magazinePhoto {
   margin-bottom: 20px;
+  cursor: zoom-in;
 }
 
 /* костиль, щоб на старих сафарі картинки не улітали */

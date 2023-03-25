@@ -1,11 +1,8 @@
+import React, { useState } from 'react';
 import { Footer } from 'components/Footer/Footer';
 import { Sidebar } from 'components/Sidebar/Sidebar';
-import css from './Pregnancy.module.css';
-
 import { Lightbox } from 'components/Lightbox/Lightbox';
-// import FsLightbox from 'fslightbox-react';
-
-import React, { useState } from 'react';
+import css from './Pregnancy.module.css';
 
 export function Pregnancy() {
   const [toggler, setToggler] = useState(false);

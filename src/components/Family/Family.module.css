@@ -112,5 +112,6 @@
 
   .familyPhoto {
     margin-bottom: 17px;
+    cursor: zoom-in;
   }
 }
