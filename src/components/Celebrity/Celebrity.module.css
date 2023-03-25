@@ -36,6 +36,7 @@
 .photoOne {
   width: 336px;
   height: 409px;
+
   cursor: zoom-in;
   transition: all 100ms linear;
 }
@@ -51,6 +52,8 @@
   right: 5px;
   width: 358px;
   height: 450px;
+
+  pointer-events: none;
   border: 1px solid #000000;
 }
 
