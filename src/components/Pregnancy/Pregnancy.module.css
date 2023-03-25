@@ -81,6 +81,14 @@
   width: 211px;
 }
 
+.rightColumn .pregPhoto:nth-child(6) {
+  width: 206px;
+}
+
+.image {
+  height: 100%;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199.9px) {
   .container {
     width: 704px;
