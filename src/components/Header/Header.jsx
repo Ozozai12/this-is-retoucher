@@ -12,7 +12,19 @@ export const Header = ({ onMenuOpen }) => {
       <div className={css.container}>
         <div className={css.langContainer}>
           <div className={css.langSwitcher}>
-            En
+            <select id="lang" name="lang" className={css.selectContainer}>
+              <option value="en" selected className={css.selectOption}>
+                en
+              </option>
+              <option value="uk">
+                <span className={css.optionFlag}></span> uk
+              </option>
+              <option value="fr">fr</option>
+              <option value="de">de</option>
+              <option value="es">es</option>
+              <option value="it">it</option>
+              <option value="sw">sw</option>
+            </select>
             <IconContext.Provider value={{ className: css.langIcon }}>
               <AiFillCaretDown />
             </IconContext.Provider>

@@ -68,7 +68,7 @@
 }
 
 .logoItem:hover {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .burger {
@@ -97,6 +97,18 @@
   width: 24px;
   height: 2px;
   background-color: #c9c2af;
+}
+
+.selectContainer {
+}
+
+.selectOption {
+}
+
+.optionFlag {
+  width: 15px;
+  height: 15px;
+  background-color: red;
 }
 
 @media screen and (max-width: 1439.9px) {
