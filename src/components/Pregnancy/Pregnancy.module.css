@@ -82,11 +82,9 @@
 }
 
 .rightColumn .pregPhoto:nth-child(6) {
-  width: 206px;
-}
-
-.image {
-  height: 100%;
+  width: 208px;
+  height: 312px;
+  object-fit: contain;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199.9px) {
