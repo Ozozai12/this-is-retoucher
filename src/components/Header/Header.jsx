@@ -1,33 +1,86 @@
 import { StyledLink, StyledLogoLink } from './Header.styled';
 import { IconContext } from 'react-icons';
-import { AiFillCaretDown } from 'react-icons/ai';
+import { AiFillCaretDown, AiFillCaretUp } from 'react-icons/ai';
+
+import Select from 'react-select';
 
 import css from './Header.module.css';
 
 import { Logo } from 'components/Logo/Logo';
+import { useState } from 'react';
 
 export const Header = ({ onMenuOpen }) => {
+  const options = [
+    { value: 'en', label: 'En 🇺🇲' },
+    { value: 'uk', label: 'Uk 🇺🇦' },
+    { value: 'de', label: 'De 🇩🇪' },
+  ];
+  const [lang, setLang] = useState(options[0]);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const onLangChange = value => {
+    setLang(value);
+  };
+
+  const DropdownIndicator = () => {
+    return (
+      <IconContext.Provider value={{ className: css.langIcon }}>
+        {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
+      </IconContext.Provider>
+    );
+  };
+
   return (
     <div className={css.header}>
       <div className={css.container}>
         <div className={css.langContainer}>
           <div className={css.langSwitcher}>
-            <select id="lang" name="lang" className={css.selectContainer}>
-              <option value="en" selected className={css.selectOption}>
-                en
-              </option>
-              <option value="uk">
-                <span className={css.optionFlag}></span> uk
-              </option>
-              <option value="fr">fr</option>
-              <option value="de">de</option>
-              <option value="es">es</option>
-              <option value="it">it</option>
-              <option value="sw">sw</option>
-            </select>
-            <IconContext.Provider value={{ className: css.langIcon }}>
-              <AiFillCaretDown />
-            </IconContext.Provider>
+            <Select
+              // getOptionLabel={lang.value}
+              options={options}
+              defaultValue={options[0]}
+              onChange={onLangChange}
+              closeMenuOnSelect={true}
+              isSearchable={false}
+              components={{ DropdownIndicator }}
+              onMenuOpen={() => setIsOpen(true)}
+              onMenuClose={() => setIsOpen(false)}
+              styles={{
+                indicatorsContainer: (baseStyles, state) => ({
+                  ...baseStyles,
+                }),
+                menuList: (baseStyles, state) => ({
+                  ...baseStyles,
+                  backgroundColor: 'transparent',
+                }),
+                menu: (baseStyles, state) => ({
+                  ...baseStyles,
+                  color: '#c9c2af',
+                  // marginLeft: -10,
+                  // width: 80,
+                }),
+                control: (baseStyles, state) => ({
+                  ...baseStyles,
+                  backgroundColor: 'transparent',
+                  border: 'none',
+                  borderColor: 'red',
+                  minHeight: 20,
+                }),
+
+                singleValue: (baseStyles, state) => ({
+                  ...baseStyles,
+                  color: '#fff',
+                  marginRight: 0,
+                }),
+                indicatorSeparator: (baseStyles, state) => ({
+                  ...baseStyles,
+                  display: 'none',
+                }),
+                input: (baseStyles, state) => ({
+                  ...baseStyles,
+                }),
+              }}
+            />
           </div>
         </div>
         <div className={css.headerContainer}>
