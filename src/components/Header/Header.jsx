@@ -18,6 +18,8 @@ export const Header = ({ onMenuOpen }) => {
   const [lang, setLang] = useState(options[0]);
   const [isOpen, setIsOpen] = useState(false);
 
+  console.log(lang);
+
   const onLangChange = value => {
     setLang(value);
   };
