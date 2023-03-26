@@ -2,8 +2,10 @@ import { CgClose } from 'react-icons/cg';
 import { IconContext } from 'react-icons';
 import css from './Menu.module.css';
 import { StyledLink } from './Menu.styled';
+import { useTranslation } from 'react-i18next';
 
 export function Menu({ onMenuClose }) {
+  const { t } = useTranslation();
   return (
     <div className={css.backdrop}>
       <span className={css.closeBtn} onClick={onMenuClose}>
@@ -14,47 +16,47 @@ export function Menu({ onMenuClose }) {
       <ul className={css.menuList} onClick={onMenuClose}>
         <li>
           <StyledLink to="/about" className={css.menuItem}>
-            About me
+            {t('about')}
           </StyledLink>
         </li>
         <li>
           <StyledLink to="/payment" className={css.menuItem}>
-            Payment
+            {t('payment')}
           </StyledLink>
         </li>
         <li>
           <StyledLink to="/reviews" className={css.menuItem}>
-            Reviews
+            {t('reviews')}
           </StyledLink>
         </li>
         <li>
           <StyledLink to="/celebrity" className={css.menuItem}>
-            Celebrity
+            {t('celebrity')}
           </StyledLink>
         </li>
         <li>
           <StyledLink to="/magazines" className={css.menuItem}>
-            Magazines
+            {t('magazines')}
           </StyledLink>
         </li>
         <li>
           <StyledLink to="/beauty" className={css.menuItem}>
-            Beauty
+            {t('beauty')}
           </StyledLink>
         </li>
         <li>
           <StyledLink to="/pregnancy" className={css.menuItem}>
-            Pregnancy
+            {t('pregnancy')}
           </StyledLink>
         </li>
         <li>
           <StyledLink to="/family" className={css.menuItem}>
-            Family
+            {t('family')}
           </StyledLink>
         </li>
         <li>
           <StyledLink to="/before-after" className={css.menuItem}>
-            Before/After
+            {t('beforeAfter')}
           </StyledLink>
         </li>
         <li>
