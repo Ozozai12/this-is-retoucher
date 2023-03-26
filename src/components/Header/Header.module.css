@@ -99,18 +99,6 @@
   background-color: #c9c2af;
 }
 
-.selectContainer {
-}
-
-.selectOption {
-}
-
-.optionFlag {
-  width: 15px;
-  height: 15px;
-  background-color: red;
-}
-
 @media screen and (max-width: 1439.9px) {
   .header {
     display: inline-block;
@@ -173,6 +161,10 @@
     padding: 20px;
     margin-right: 17px;
   }
+
+  .select {
+    color: #c9c2af;
+  }
 }
 
 @media screen and (max-width: 767.9px) {
@@ -183,6 +175,7 @@
   .langContainer {
     margin-left: 0;
     justify-content: flex-start;
+    margin-bottom: 0;
   }
 
   .burger {

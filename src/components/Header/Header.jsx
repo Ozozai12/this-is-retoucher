@@ -1,6 +1,8 @@
 import { StyledLink, StyledLogoLink } from './Header.styled';
 import { IconContext } from 'react-icons';
 import { AiFillCaretDown, AiFillCaretUp } from 'react-icons/ai';
+import '/node_modules/flag-icons/css/flag-icons.min.css';
+import { useMatchMedia } from 'hooks/use-match-media';
 
 import Select from 'react-select';
 
@@ -9,15 +11,20 @@ import css from './Header.module.css';
 import { Logo } from 'components/Logo/Logo';
 import { useState } from 'react';
 
+const options = [
+  { value: 'en', label: 'En' },
+  { value: 'uk', label: 'Uk' },
+  { value: 'fr', label: 'Fr' },
+  { value: 'de', label: 'De' },
+  { value: 'es', label: 'Es' },
+  { value: 'it', label: 'It' },
+  { value: 'sw', label: 'Sw' },
+];
+
 export const Header = ({ onMenuOpen }) => {
-  const options = [
-    { value: 'en', label: 'En 🇺🇲' },
-    { value: 'uk', label: 'Uk 🇺🇦' },
-    { value: 'de', label: 'De 🇩🇪' },
-  ];
+  const { isDesktop } = useMatchMedia();
   const [lang, setLang] = useState(options[0]);
   const [isOpen, setIsOpen] = useState(false);
-
   console.log(lang);
 
   const onLangChange = value => {
@@ -38,7 +45,6 @@ export const Header = ({ onMenuOpen }) => {
         <div className={css.langContainer}>
           <div className={css.langSwitcher}>
             <Select
-              // getOptionLabel={lang.value}
               options={options}
               defaultValue={options[0]}
               onChange={onLangChange}
@@ -47,39 +53,30 @@ export const Header = ({ onMenuOpen }) => {
               components={{ DropdownIndicator }}
               onMenuOpen={() => setIsOpen(true)}
               onMenuClose={() => setIsOpen(false)}
+              className={css.select}
               styles={{
-                indicatorsContainer: (baseStyles, state) => ({
-                  ...baseStyles,
-                }),
-                menuList: (baseStyles, state) => ({
-                  ...baseStyles,
-                  backgroundColor: 'transparent',
-                }),
                 menu: (baseStyles, state) => ({
                   ...baseStyles,
                   color: '#c9c2af',
-                  // marginLeft: -10,
-                  // width: 80,
+                  zIndex: 20,
                 }),
                 control: (baseStyles, state) => ({
                   ...baseStyles,
                   backgroundColor: 'transparent',
                   border: 'none',
-                  borderColor: 'red',
                   minHeight: 20,
+                  zIndex: 20,
+                  boxShadow: 'none',
                 }),
-
                 singleValue: (baseStyles, state) => ({
                   ...baseStyles,
-                  color: '#fff',
+                  color: isDesktop ? '#fff' : '#c9c2af',
+                  fontSize: isDesktop ? 20 : 24,
                   marginRight: 0,
                 }),
                 indicatorSeparator: (baseStyles, state) => ({
                   ...baseStyles,
                   display: 'none',
-                }),
-                input: (baseStyles, state) => ({
-                  ...baseStyles,
                 }),
               }}
             />
