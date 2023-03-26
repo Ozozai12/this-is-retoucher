@@ -60,6 +60,7 @@ export const Header = ({ onMenuOpen }) => {
                   color: '#c9c2af',
                   zIndex: 20,
                   marginLeft: 5,
+                  fontSize: 16,
                 }),
                 control: (baseStyles, state) => ({
                   ...baseStyles,
