@@ -26,6 +26,9 @@
 
 .langIcon {
   color: #fff;
+  width: 17px;
+  margin-bottom: -5px;
+  margin-left: -5px;
 }
 
 .headerContainer {

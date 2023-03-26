@@ -59,6 +59,7 @@ export const Header = ({ onMenuOpen }) => {
                   ...baseStyles,
                   color: '#c9c2af',
                   zIndex: 20,
+                  marginLeft: 5,
                 }),
                 control: (baseStyles, state) => ({
                   ...baseStyles,
@@ -67,6 +68,7 @@ export const Header = ({ onMenuOpen }) => {
                   minHeight: 20,
                   zIndex: 20,
                   boxShadow: 'none',
+                  cursor: 'pointer',
                 }),
                 singleValue: (baseStyles, state) => ({
                   ...baseStyles,
