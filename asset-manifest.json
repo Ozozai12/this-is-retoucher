@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/this-is-retoucher/static/css/main.4b44a6bf.css",
-    "main.js": "/this-is-retoucher/static/js/main.2cfa216c.js",
+    "main.css": "/this-is-retoucher/static/css/main.c9ceabca.css",
+    "main.js": "/this-is-retoucher/static/js/main.8208a1b7.js",
     "static/media/do.svg": "/this-is-retoucher/static/media/do.d2287a1e1eee0805fc27.svg",
     "static/media/rs.svg": "/this-is-retoucher/static/media/rs.dc155455e86e12200cb5.svg",
     "static/media/bo.svg": "/this-is-retoucher/static/media/bo.e0a90fef5f7c6c6ab66f.svg",
@@ -268,11 +268,11 @@
     "static/media/de.svg": "/this-is-retoucher/static/media/de.6435bf24d148ca7248e7.svg",
     "static/media/bd.svg": "/this-is-retoucher/static/media/bd.0ad8c443ef4d47ea0497.svg",
     "static/media/id.svg": "/this-is-retoucher/static/media/id.f624e2c8444a7794b357.svg",
-    "main.4b44a6bf.css.map": "/this-is-retoucher/static/css/main.4b44a6bf.css.map",
-    "main.2cfa216c.js.map": "/this-is-retoucher/static/js/main.2cfa216c.js.map"
+    "main.c9ceabca.css.map": "/this-is-retoucher/static/css/main.c9ceabca.css.map",
+    "main.8208a1b7.js.map": "/this-is-retoucher/static/js/main.8208a1b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b44a6bf.css",
-    "static/js/main.2cfa216c.js"
+    "static/css/main.c9ceabca.css",
+    "static/js/main.8208a1b7.js"
   ]
 }
