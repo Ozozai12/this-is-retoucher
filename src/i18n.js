@@ -32,7 +32,7 @@ i18n
           elcome_text: "elcome to my creativity page! I'm glad to see you!",
           m: 'M',
           y_name_text:
-            'y name is Daria and I really love beautiful shots that convey emotions and these photographs remain in our memory for life - this is the only thing that we can save without changing the time. I have a lot of experience in this field and a million satisfied clients, of which: singers, bloggers, football players, TV presenters, famous models.',
+            'y name is Daria and I really like beautiful shots that convey emotions. These photos remain in our memory for a lifetime - this is the only thing that time will not affect. I have a lot of experience in this field and a million satisfied clients, of which: singers, bloggers, football players, TV presenters, famous models.',
           i_work: 'I work in different areas such as:',
           studio: 'studio',
           newborn: 'newborn',
@@ -68,8 +68,8 @@ i18n
             'аскаво запрошую до своєї творчої сторінки! Рада вас бачити!',
           m: 'M',
           y_name_text:
-            "ене звати Дар'я, і я дуже люблю красиві кадри, які передають емоції. І ці фотографії залишаються в пам'яті на все життя - це єдине, що лишається незмінним. Я маю великий досвід у цій сфері та мільйон задоволених клієнтів, серед яких: співаки, блогери, футболісти, телеведучі, та відомі моделі.",
-          i_work: 'Я працюю в наступних галузях:',
+            "ене звуть Дарія і я дуже люблю красиві кадри, які передають емоції. Ці фотографії залишаються в нашій пам'яті на все життя - це єдине, на що не вплине час. Маю великий досвід у цій сфері та мільйон задоволених клієнтів, серед яких: співаки, блогери, футболісти, телеведучі, відомі моделі.",
+          i_work: 'Я працюю в різних сферах, таких як:',
           studio: 'студійна зйомка',
           newborn: 'новонароджені',
           pregnancy_list: 'вагітність',
@@ -103,7 +103,7 @@ i18n
           elcome_text: 'ienvenue sur ma page créative ! Content de te voir!',
           m: 'J',
           y_name_text:
-            "e m'appelle Darya et j'aime beaucoup les beaux clichés qui véhiculent des émotions. Et ces photos restent en mémoire toute une vie - c'est la seule chose qui reste inchangée. J'ai une vaste expérience dans ce domaine et un million de clients satisfaits, dont des chanteurs, des joueurs de football, des présentateurs de télévision et des mannequins célèbres.",
+            "e m'appelle Daria et j'aime beaucoup les beaux clichés qui véhiculent des émotions. Ces photos restent dans notre mémoire toute une vie - c'est la seule chose que le temps n'affectera pas. J'ai beaucoup d'expérience dans ce domaine et un million de clients satisfaits, dont : des chanteurs, des blogueurs, des footballeurs, des présentateurs de télévision, des mannequins célèbres.",
           i_work: 'Je travaille dans les domaines suivants :',
           studio: 'prise de vue en studio',
           newborn: 'nouveau-nés',
@@ -140,7 +140,7 @@ i18n
             'llkommen auf meiner Kreativitätsseite! Ich freue mich, Sie zu sehen!',
           m: 'M',
           y_name_text:
-            'ein Name ist Daria und ich liebe schöne Aufnahmen, die Emotionen vermitteln, und diese Fotos bleiben uns ein Leben lang in Erinnerung – das ist das Einzige, was die Zeit zu ändern kann. Ich habe viel Erfahrung in diesem Bereich und eine Million zufriedene Kunden, darunter: Sänger, Blogger, Fußballspieler, Fernsehmoderatoren, berühmte Models.',
+            'ein Name ist Daria und ich mag schöne Aufnahmen, die Emotionen vermitteln. Diese Fotos bleiben ein Leben lang in unserer Erinnerung - das ist das einzige, was die Zeit nicht beeinflusst. Ich habe viel Erfahrung in diesem Bereich und eine Million zufriedene Kunden, darunter: Sänger, Blogger, Fußballspieler, Fernsehmoderatoren, berühmte Models.',
           i_work: 'Ich arbeite in verschiedenen Bereichen wie:',
           studio: 'Studio',
           newborn: 'Neugeboren',
@@ -176,7 +176,7 @@ i18n
             'ienvenido a mi página de creatividad! ¡Me alegro de verte!',
           m: 'M',
           y_name_text:
-            'i nombre es Daria y me encantan las tomas hermosas que transmiten emociones y estas fotografías permanecen en nuestra memoria de por vida: esto es lo único que podemos guardar sin cambiar el tiempo. Tengo mucha experiencia en este campo y un millón de clientes satisfechos, de los cuales: cantantes, blogueros, futbolistas, presentadores de televisión, modelos famosos.',
+            'i nombre es Daria y me gustan mucho las tomas hermosas que transmiten emociones. Estas fotos permanecen en nuestra memoria para toda la vida; esto es lo único que no afectará el tiempo. Tengo mucha experiencia en este campo y un millón de clientes satisfechos, de los cuales: cantantes, blogueros, futbolistas, presentadores de televisión, modelos famosos.',
           i_work: 'Trabajo en diferentes áreas como:',
           studio: 'estudio',
           newborn: 'el recién nacido',
@@ -212,7 +212,7 @@ i18n
             'envenuti nella mia pagina della creatività! Sono contento di vederti!',
           m: 'M',
           y_name_text:
-            "i chiamo Daria e amo molto gli scatti belli che trasmettono emozioni e queste fotografie rimangono nella nostra memoria per tutta la vita - questa è l'unica cosa che possiamo salvare senza cambiare il tempo. Ho molta esperienza in questo campo e un milione di clienti soddisfatti, tra cui: cantanti, blogger, calciatori, conduttrici televisive, modelle famose.",
+            "i chiamo Daria e mi piacciono molto gli scatti belli che trasmettono emozioni. Queste foto rimangono nella nostra memoria per tutta la vita: questa è l'unica cosa che il tempo non influirà. Ho molta esperienza in questo campo e un milione di clienti soddisfatti, tra cui: cantanti, blogger, calciatori, conduttrici televisive, modelle famose.",
           i_work: 'Lavoro in diversi ambiti quali:',
           studio: 'studio',
           newborn: 'neonato',
@@ -248,7 +248,7 @@ i18n
             'aribu kwenye ukurasa wangu wa ubunifu! Nimefurahi kukuona!',
           m: 'J',
           y_name_text:
-            'ina langu ni Daria na napenda sana picha nzuri zinazowasilisha hisia na picha hizi zinabaki kwenye kumbukumbu zetu maishani - hii ndio kitu pekee ambacho tunaweza kuokoa bila kubadilisha wakati. Nina uzoefu mwingi katika uwanja huu na wateja milioni walioridhika, ambao: waimbaji, wanablogu, wachezaji wa mpira wa miguu, watangazaji wa Runinga, wanamitindo maarufu.',
+            'ina langu ni Daria na napenda sana picha nzuri zinazowasilisha hisia. Picha hizi zinabaki kwenye kumbukumbu zetu kwa maisha yote - hii ndio kitu pekee ambacho wakati hautaathiri. Nina uzoefu mwingi katika uwanja huu na wateja milioni walioridhika, ambao: waimbaji, wanablogu, wachezaji wa mpira wa miguu, watangazaji wa Runinga, wanamitindo maarufu.',
           i_work: 'Ninafanya kazi katika maeneo tofauti kama vile:',
           studio: 'studio',
           newborn: 'mtoto mchanga',

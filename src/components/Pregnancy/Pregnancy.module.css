@@ -144,6 +144,11 @@
     width: 144px;
   }
 
+  .rightColumn .pregPhoto:nth-child(6) {
+    width: 141px;
+    height: 213px;
+  }
+
   .image {
     height: 100%;
   }
@@ -210,6 +215,11 @@
 
   .rightColumn .pregPhoto:nth-child(3n + 3) {
     width: 135px;
+  }
+
+  .rightColumn .pregPhoto:nth-child(6) {
+    width: 127px;
+    height: 170px;
   }
 
   .image {
