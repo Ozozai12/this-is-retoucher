@@ -1,8 +1,10 @@
 import { Sidebar } from 'components/Sidebar/Sidebar';
 import { Footer } from 'components/Footer/Footer';
 import css from './About.module.css';
+import { useTranslation } from 'react-i18next';
 
 export function About() {
+  const { t } = useTranslation();
   return (
     <>
       <div className={css.container}>
@@ -11,33 +13,23 @@ export function About() {
           <div className={css.textFrame}>
             <div className={css.textContainer}>
               <span className={css.welcomeText}>
-                <span className={css.firstLetter}>W</span>
-                elcome to my creativity page! I'm glad to see you!
+                <span className={css.firstLetter}>{t('w')}</span>
+                {t('elcome_text')}
                 <br />
-                <span className={css.firstLetter}>M</span>y name is Daria and I
-                really love beautiful shots that convey emotions and these
-                photographs remain in our memory for life - this is the only
-                thing that we can save without changing the time. I have a lot
-                of experience in this field and a million satisfied clients, of
-                which: singers, bloggers, football players, TV presenters,
-                famous models.
+                <span className={css.firstLetter}>{t('m')}</span>
+                {t('y_name_text')}
                 <br />
-                I work in different areas such as:
+                {t('i_work')}
                 <br />
                 <span className={css.welcomeList}>
-                  -studio
+                  -{t('studio')}
+                  <br />-{t('newborn')}
+                  <br />-{t('pregnancy_list')}
+                  <br />-{t('portraits')}
+                  <br />-{t('collages')}
+                  <br />-{t('beauty_list')}
                   <br />
-                  -newborn
-                  <br />
-                  -pregnancy
-                  <br />
-                  -portraits
-                  <br />
-                  -collages
-                  <br />
-                  -beauty
-                  <br />
-                  and etc.
+                  {t('etc')}
                 </span>
               </span>
             </div>

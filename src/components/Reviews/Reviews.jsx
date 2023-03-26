@@ -1,19 +1,21 @@
 import * as React from 'react';
 import { Sidebar } from 'components/Sidebar/Sidebar';
-import css from './Reviews.module.css';
 import { HiArrowCircleRight, HiArrowCircleLeft } from 'react-icons/hi';
 import { IconContext } from 'react-icons';
+import { Footer } from 'components/Footer/Footer';
+import { useTranslation } from 'react-i18next';
 
 import Glider from 'react-glider';
 import './Glider.css';
 
-import { Footer } from 'components/Footer/Footer';
+import css from './Reviews.module.css';
 
 export function Reviews() {
+  const { t } = useTranslation();
   return (
     <div className={css.reviewsSection}>
       <div className={css.container}>
-        <h1 className={css.pageTitle}>Reviews</h1>
+        <h1 className={css.pageTitle}>{t('reviews')}</h1>
       </div>
       <div className={css.deviceContainer}>
         <div className={css.device}>

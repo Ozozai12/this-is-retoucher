@@ -2,17 +2,20 @@ import React, { useState } from 'react';
 import { Lightbox } from 'components/Lightbox/Lightbox';
 import { Footer } from 'components/Footer/Footer';
 import { Sidebar } from 'components/Sidebar/Sidebar';
+import { useTranslation } from 'react-i18next';
+
 import css from './BeforeAfter.module.css';
 
 export function BeforeAfter() {
   const [toggler, setToggler] = useState(false);
   const [url, setUrl] = useState('');
+  const { t } = useTranslation();
 
   return (
     <>
       <Lightbox toggler={toggler} url={url} />
       <div className={css.container}>
-        <h1 className={css.pageTitle}>Before/After</h1>
+        <h1 className={css.pageTitle}>{t('beforeAfter')}</h1>
         <div className={css.pageContainer}>
           <div className={css.leftColumn}>
             <img

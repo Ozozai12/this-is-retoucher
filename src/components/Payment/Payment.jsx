@@ -1,16 +1,18 @@
 import { Footer } from 'components/Footer/Footer';
 import { Sidebar } from 'components/Sidebar/Sidebar';
+import { useTranslation } from 'react-i18next';
 import css from './Payment.module.css';
 
 export function Payment() {
+  const { t } = useTranslation();
   return (
     <>
       <div className={css.container}>
-        <h1 className={css.pageTitle}>Payment</h1>
+        <h1 className={css.pageTitle}>{t('payment')}</h1>
         <div className={css.pageContainer}>
           <div className={css.priceContainer}>
             <div className={css.priceThumb}>
-              <span className={css.thumbText}>Price list</span>
+              <span className={css.thumbText}>{t('price_list')}</span>
             </div>
             <div className={css.imageThumb}>
               <div className={css.imageContainer}>
@@ -19,8 +21,8 @@ export function Payment() {
                   alt="pregnant women with flowers"
                   className={css.payPhoto}
                 />
-                <span className={css.priceTitle}>Basic</span>
-                <span className={css.priceValue}>from 5$</span>
+                <span className={css.priceTitle}>{t('basic')}</span>
+                <span className={css.priceValue}>{t('from')} 5$</span>
               </div>
               <div className={css.imageContainer}>
                 <img
@@ -28,17 +30,15 @@ export function Payment() {
                   alt="woman's portrait"
                   className={css.payPhoto}
                 />
-                <span className={css.priceTitle}>High-end</span>
-                <span className={css.priceValue}>from 12$</span>
+                <span className={css.priceTitle}>{t('high_end')}</span>
+                <span className={css.priceValue}>{t('from')} 12$</span>
               </div>
             </div>
           </div>
 
           <div className={css.payContainer}>
             <div className={css.payThumb}>
-              <span className={css.thumbText}>
-                Choose a convenient payment method for yourself
-              </span>
+              <span className={css.thumbText}>{t('choose_method')}</span>
             </div>
             <div className={css.iphoneFrame}>
               <div className={css.iphoneScreen}>

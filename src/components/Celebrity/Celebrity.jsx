@@ -2,17 +2,19 @@ import React, { useState } from 'react';
 import { Lightbox } from 'components/Lightbox/Lightbox';
 import { Footer } from 'components/Footer/Footer';
 import { Sidebar } from 'components/Sidebar/Sidebar';
+import { useTranslation } from 'react-i18next';
 import css from './Celebrity.module.css';
 
 export function Celebrity() {
   const [toggler, setToggler] = useState(false);
   const [url, setUrl] = useState('');
+  const { t } = useTranslation();
 
   return (
     <>
       <Lightbox toggler={toggler} url={url} />
       <div className={css.container}>
-        <h1 className={css.pageTitle}>Celebrity</h1>
+        <h1 className={css.pageTitle}>{t('celebrity')}</h1>
         <div className={css.pageContainer}>
           <div className={css.assetContainerOne}>
             <img
@@ -29,7 +31,7 @@ export function Celebrity() {
             <span className={css.nameOne}>
               Channah Koerten
               <span className={css.roleOne}>
-                <br /> media
+                <br /> {t('media')}
               </span>
             </span>
           </div>
@@ -47,7 +49,7 @@ export function Celebrity() {
             <span className={css.titleTwo}>retouch</span>
             <span className={css.nameTwo}>
               Penthesilea
-              <span className={css.roleTwo}>model</span>
+              <span className={css.roleTwo}>{t('model')}</span>
             </span>
           </div>
           <div className={css.assetContainerThree}>
@@ -63,7 +65,7 @@ export function Celebrity() {
             <div className={css.frameThree} />
             <span className={css.titleThree}>retoucheretoucher</span>
             <span className={css.nameThree}>
-              50 cent<span className={css.roleThree}>rapper</span>
+              50 cent<span className={css.roleThree}>{t('rapper')}</span>
             </span>
           </div>
           <div className={css.assetContainerFour}>
@@ -79,7 +81,7 @@ export function Celebrity() {
             <div className={css.frameFour} />
             <span className={css.titleFour}>photo</span>
             <span className={css.nameFour}>
-              Tonny Vilhena<span className={css.roleFour}>football player</span>
+              Tonny Vilhena<span className={css.roleFour}>{t('player')}</span>
             </span>
           </div>
         </div>

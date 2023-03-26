@@ -3,13 +3,14 @@ import { IconContext } from 'react-icons';
 import { AiFillCaretDown, AiFillCaretUp } from 'react-icons/ai';
 import '/node_modules/flag-icons/css/flag-icons.min.css';
 import { useMatchMedia } from 'hooks/use-match-media';
+import { useTranslation } from 'react-i18next';
 
 import Select from 'react-select';
 
 import css from './Header.module.css';
 
 import { Logo } from 'components/Logo/Logo';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const options = [
   { value: 'en', label: 'En' },
@@ -22,10 +23,15 @@ const options = [
 ];
 
 export const Header = ({ onMenuOpen }) => {
+  const { t, i18n } = useTranslation();
+
   const { isDesktop } = useMatchMedia();
   const [lang, setLang] = useState(options[0]);
   const [isOpen, setIsOpen] = useState(false);
-  console.log(lang);
+
+  useEffect(() => {
+    i18n.changeLanguage(lang.value);
+  }, [i18n, lang]);
 
   const onLangChange = value => {
     setLang(value);
@@ -90,39 +96,39 @@ export const Header = ({ onMenuOpen }) => {
             <Logo />
           </StyledLogoLink>
           <StyledLink to="/about" className={css.navItem}>
-            About me
+            {t('about')}
             <span className={css.underline} />
           </StyledLink>
           <StyledLink to="/payment" className={css.navItem}>
-            Payment
+            {t('payment')}
             <span className={css.underline} />
           </StyledLink>
           <StyledLink to="/reviews" className={css.navItem}>
-            Reviews
+            {t('reviews')}
             <span className={css.underline} />
           </StyledLink>
           <StyledLink to="/celebrity" className={css.navItem}>
-            Celebrity
+            {t('celebrity')}
             <span className={css.underline} />
           </StyledLink>
           <StyledLink to="/magazines" className={css.navItem}>
-            Magazines
+            {t('magazines')}
             <span className={css.underline} />
           </StyledLink>
           <StyledLink to="/beauty" className={css.navItem}>
-            Beauty
+            {t('beauty')}
             <span className={css.underline} />
           </StyledLink>
           <StyledLink to="/pregnancy" className={css.navItem}>
-            Pregnancy
+            {t('pregnancy')}
             <span className={css.underline} />
           </StyledLink>
           <StyledLink to="/family" className={css.navItem}>
-            Family
+            {t('family')}
             <span className={css.underline} />
           </StyledLink>
           <StyledLink to="/before-after" className={css.navItem}>
-            Before/After
+            {t('beforeAfter')}
             <span className={css.underline} />
           </StyledLink>
           <StyledLink to="/18+" className={css.navItem}>

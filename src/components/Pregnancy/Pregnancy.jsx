@@ -2,17 +2,20 @@ import React, { useState } from 'react';
 import { Footer } from 'components/Footer/Footer';
 import { Sidebar } from 'components/Sidebar/Sidebar';
 import { Lightbox } from 'components/Lightbox/Lightbox';
+import { useTranslation } from 'react-i18next';
+
 import css from './Pregnancy.module.css';
 
 export function Pregnancy() {
   const [toggler, setToggler] = useState(false);
   const [url, setUrl] = useState('');
+  const { t } = useTranslation();
 
   return (
     <>
       <Lightbox toggler={toggler} url={url} />
       <div className={css.container}>
-        <h1 className={css.pageTitle}>Pregnancy</h1>
+        <h1 className={css.pageTitle}>{t('pregnancy')}</h1>
         <div className={css.pageContainer}>
           <ul className={css.leftColumn}>
             <li className={css.pregPhoto}>

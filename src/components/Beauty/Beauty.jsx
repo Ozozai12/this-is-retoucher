@@ -2,17 +2,20 @@ import React, { useState } from 'react';
 import { Lightbox } from 'components/Lightbox/Lightbox';
 import { Footer } from 'components/Footer/Footer';
 import { Sidebar } from 'components/Sidebar/Sidebar';
+import { useTranslation } from 'react-i18next';
+
 import css from './Beauty.module.css';
 
 export function Beauty() {
   const [toggler, setToggler] = useState(false);
   const [url, setUrl] = useState('');
+  const { t } = useTranslation();
 
   return (
     <>
       <Lightbox toggler={toggler} url={url} />
       <div className={css.container}>
-        <h1 className={css.pageTitle}>Beauty</h1>
+        <h1 className={css.pageTitle}>{t('beauty')}</h1>
         <div className={css.pageContainerUpper}>
           <div className={css.assetContainerOne}>
             <img
