@@ -4,3 +4,9 @@
   margin-bottom: -5px;
   margin-left: -5px;
 }
+
+@media screen and (max-width: 1199.9px) {
+  .langIcon {
+    color: #c9c2af;
+  }
+}
