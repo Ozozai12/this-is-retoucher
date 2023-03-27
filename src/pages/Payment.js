@@ -1,9 +1,11 @@
 import { Payment } from '../components/Payment/Payment';
 
-export function PaymentPage() {
+const PaymentPage = () => {
   return (
     <div>
       <Payment />
     </div>
   );
-}
+};
+
+export default PaymentPage;

@@ -1,9 +1,11 @@
 import { Magazines } from '../components/Magazines/Magazines';
 
-export function MagazinesPage() {
+const MagazinesPage = () => {
   return (
     <div>
       <Magazines />
     </div>
   );
-}
+};
+
+export default MagazinesPage;

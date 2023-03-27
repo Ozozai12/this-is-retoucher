@@ -1,9 +1,11 @@
 import { Eighteen } from '../components/Eighteen/Eighteen';
 
-export function EighteenPage() {
+const EighteenPage = () => {
   return (
     <div>
       <Eighteen />
     </div>
   );
-}
+};
+
+export default EighteenPage;

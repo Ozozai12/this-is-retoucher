@@ -1,9 +1,11 @@
 import { Family } from '../components/Family/Family';
 
-export function FamilyPage() {
+const FamilyPage = () => {
   return (
     <div>
       <Family />
     </div>
   );
-}
+};
+
+export default FamilyPage;

@@ -1,9 +1,11 @@
 import { Celebrity } from '../components/Celebrity/Celebrity';
 
-export function CelebrityPage() {
+const CelebrityPage = () => {
   return (
     <div>
       <Celebrity />
     </div>
   );
-}
+};
+
+export default CelebrityPage;

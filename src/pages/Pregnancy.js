@@ -1,9 +1,11 @@
 import { Pregnancy } from '../components/Pregnancy/Pregnancy';
 
-export function PregnancyPage() {
+const PregnancyPage = () => {
   return (
     <div>
       <Pregnancy />
     </div>
   );
-}
+};
+
+export default PregnancyPage;

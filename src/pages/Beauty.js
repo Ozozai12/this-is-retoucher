@@ -1,9 +1,11 @@
 import { Beauty } from '../components/Beauty/Beauty';
 
-export function BeautyPage() {
+const BeautyPage = () => {
   return (
     <div>
       <Beauty />
     </div>
   );
-}
+};
+
+export default BeautyPage;

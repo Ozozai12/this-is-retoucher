@@ -1,9 +1,11 @@
 import { General } from '../components/General/General';
 
-export function GeneralPage() {
+const GeneralPage = () => {
   return (
     <>
       <General />
     </>
   );
-}
+};
+
+export default GeneralPage;
