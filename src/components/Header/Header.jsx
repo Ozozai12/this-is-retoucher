@@ -26,8 +26,17 @@ export const Header = ({ onMenuOpen }) => {
   const { t, i18n } = useTranslation();
 
   const { isDesktop } = useMatchMedia();
-  const [lang, setLang] = useState(options[0]);
+  const [lang, setLang] = useState('en');
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    const currentLanguage = localStorage.getItem('i18nextLng');
+    if (currentLanguage) {
+      i18n.changeLanguage(currentLanguage);
+      return setLang(currentLanguage);
+    }
+    setLang('en');
+  }, [i18n, lang]);
 
   useEffect(() => {
     i18n.changeLanguage(lang.value);
@@ -45,6 +54,10 @@ export const Header = ({ onMenuOpen }) => {
     );
   };
 
+  const currentLang = () => {
+    return options.find(option => option.value === lang);
+  };
+
   return (
     <div className={css.header}>
       <div className={css.container}>
@@ -52,8 +65,8 @@ export const Header = ({ onMenuOpen }) => {
           <div className={css.langSwitcher}>
             <Select
               options={options}
-              defaultValue={options[0]}
               onChange={onLangChange}
+              value={currentLang()}
               closeMenuOnSelect={true}
               isSearchable={false}
               components={{ DropdownIndicator }}
