@@ -8,7 +8,7 @@ export function About() {
   return (
     <>
       <div className={css.container}>
-        <h1 className={css.pageTitle}>About me</h1>
+        <h1 className={css.pageTitle}>{t('about')}</h1>
         <div className={css.pageContainer}>
           <div className={css.textFrame}>
             <div className={css.textContainer}>
