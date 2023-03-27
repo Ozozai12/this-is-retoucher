@@ -60,7 +60,7 @@
   border: 0;
   top: 100px;
   cursor: pointer;
-  color: #666;
+  color: #7d7d7d;
   opacity: 1;
   line-height: 1;
   transition: opacity 0.5s cubic-bezier(0.17, 0.67, 0.83, 0.67),
@@ -78,6 +78,11 @@
   width: 40px;
   right: 40px;
   left: auto;
+}
+
+.glider-prev:hover,
+.glider-next:hover {
+  color: #555555;
 }
 
 .glider-next.disabled,
