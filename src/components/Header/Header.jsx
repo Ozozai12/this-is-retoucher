@@ -1,7 +1,5 @@
 import { StyledLink, StyledLogoLink } from './Header.styled';
 import { LangSelect } from 'components/Header/LangSelect/LangSelect';
-
-import '/node_modules/flag-icons/css/flag-icons.min.css';
 import { useTranslation } from 'react-i18next';
 
 import css from './Header.module.css';

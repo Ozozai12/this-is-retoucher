@@ -1,24 +1,50 @@
 import { IconContext } from 'react-icons';
 import { AiFillCaretDown, AiFillCaretUp } from 'react-icons/ai';
-import Select from 'react-select';
-import { useEffect, useState } from 'react';
-import { useMatchMedia } from 'hooks/use-match-media';
+import { useState, useEffect } from 'react';
+
 import { useTranslation } from 'react-i18next';
 
 import css from './LangSelect.module.css';
 
 const options = [
-  { value: 'en', label: 'En' },
-  { value: 'uk', label: 'Uk' },
-  { value: 'fr', label: 'Fr' },
-  { value: 'de', label: 'De' },
-  { value: 'es', label: 'Es' },
-  { value: 'it', label: 'It' },
-  { value: 'sw', label: 'Sw' },
+  {
+    value: 'en',
+    label: 'En',
+    flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_the_United_States_%281912-1959%29.svg/2560px-Flag_of_the_United_States_%281912-1959%29.svg.png',
+  },
+  {
+    value: 'uk',
+    label: 'Uk',
+    flag: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1679933141/this-is-retoucher/languages/twemoji_flag-ukraine_sm5nls.png',
+  },
+  {
+    value: 'fr',
+    label: 'Fr',
+    flag: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1679933141/this-is-retoucher/languages/twemoji_flag-france_mu1qap.png',
+  },
+  {
+    value: 'de',
+    label: 'De',
+    flag: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1679933141/this-is-retoucher/languages/twemoji_flag-germany_itucb2.png',
+  },
+  {
+    value: 'es',
+    label: 'Es',
+    flag: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1679933141/this-is-retoucher/languages/emojione-v1_flag-for-spain_o6tikx.png',
+  },
+  {
+    value: 'it',
+    label: 'It',
+    flag: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1679933141/this-is-retoucher/languages/twemoji_flag-italy_yc8zs8.png',
+  },
+  {
+    value: 'sw',
+    label: 'Sw',
+    flag: 'https://res.cloudinary.com/dmadhdzzm/image/upload/v1679933141/this-is-retoucher/languages/twemoji_flag-central-african-republic_i0c9sv.png',
+  },
 ];
 
 export const LangSelect = () => {
-  const { isDesktop } = useMatchMedia();
   const [lang, setLang] = useState('en');
   const [isOpen, setIsOpen] = useState(false);
 
@@ -26,71 +52,55 @@ export const LangSelect = () => {
 
   useEffect(() => {
     const currentLanguage = localStorage.getItem('i18nextLng');
-    if (currentLanguage) {
-      i18n.changeLanguage(currentLanguage);
-      return setLang(currentLanguage);
+    if (!currentLanguage) {
+      setLang('en');
     }
-    setLang('en');
-  }, [i18n, lang]);
+    i18n.changeLanguage(currentLanguage);
+    return setLang(currentLanguage);
+  }, [i18n]);
 
-  useEffect(() => {
-    i18n.changeLanguage(lang.value);
-  }, [i18n, lang]);
-
-  const onLangChange = value => {
-    setLang(value);
+  const handleLangSelect = option => {
+    setLang(option);
+    i18n.changeLanguage(option);
+    setIsOpen(false);
   };
 
-  const DropdownIndicator = () => {
-    return (
-      <IconContext.Provider value={{ className: css.langIcon }}>
-        {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
-      </IconContext.Provider>
-    );
+  const handleMenuBlur = () => {
+    setIsOpen(false);
   };
 
   const currentLang = () => {
-    return options.find(option => option.value === lang);
+    const currentLanguage = options.find(option => option.value === lang);
+    return currentLanguage.label;
   };
 
   return (
-    <Select
-      options={options}
-      onChange={onLangChange}
-      value={currentLang()}
-      closeMenuOnSelect={true}
-      isSearchable={false}
-      components={{ DropdownIndicator }}
-      onMenuOpen={() => setIsOpen(true)}
-      onMenuClose={() => setIsOpen(false)}
-      styles={{
-        menu: (baseStyles, state) => ({
-          ...baseStyles,
-          color: '#c9c2af',
-          zIndex: 20,
-          marginLeft: 5,
-          fontSize: 16,
-        }),
-        control: (baseStyles, state) => ({
-          ...baseStyles,
-          backgroundColor: 'transparent',
-          border: 'none',
-          minHeight: 20,
-          zIndex: 20,
-          boxShadow: 'none',
-          cursor: 'pointer',
-        }),
-        singleValue: (baseStyles, state) => ({
-          ...baseStyles,
-          color: isDesktop ? '#fff' : '#c9c2af',
-          fontSize: isDesktop ? 20 : 24,
-          marginRight: 0,
-        }),
-        indicatorSeparator: (baseStyles, state) => ({
-          ...baseStyles,
-          display: 'none',
-        }),
-      }}
-    />
+    <div className={css.dropdownMenu}>
+      <button
+        className={css.dropdownMenu__button}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        {currentLang()}
+        <IconContext.Provider value={{ className: css.langIcon }}>
+          {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
+        </IconContext.Provider>
+      </button>
+      {isOpen && (
+        <ul className={css.dropdownMenu__options} onBlur={handleMenuBlur}>
+          {options.map(option => (
+            <li
+              key={option.label}
+              className={css.dropdownMenu__option}
+              onClick={() => handleLangSelect(option.value)}
+            >
+              {option.value}
+              <div className={css.flagContainer}>
+                <img src={option.flag} alt={option.value} />
+              </div>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
   );
 };
