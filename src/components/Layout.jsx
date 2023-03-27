@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import { Outlet } from 'react-router-dom';
 import { Header } from './Header/Header';
-import { Menu } from './Menu/Menu';
+import { Menu } from './Header/Menu/Menu';
 
 export const Layout = () => {
   const [isOpen, setIsOpen] = useState(false);
