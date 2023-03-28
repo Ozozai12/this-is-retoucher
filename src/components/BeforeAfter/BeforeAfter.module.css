@@ -50,6 +50,7 @@
 
 .beforeafterPhoto:nth-child(even) {
   margin-left: 20px;
+  animation: photosAppearing 1s;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199.9px) {
@@ -123,5 +124,14 @@
 
   .beforeafterPhoto:nth-child(even) {
     margin-left: 10px;
+  }
+}
+
+@keyframes photosAppearing {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

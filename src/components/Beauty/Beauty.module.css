@@ -46,6 +46,7 @@
   z-index: 1;
   cursor: zoom-in;
   transition: all 100ms linear;
+  animation: photosAppearing 1s;
 }
 
 .photoOne:hover {
@@ -89,6 +90,7 @@
   z-index: 1;
   cursor: zoom-in;
   transition: all 100ms linear;
+  animation: photosAppearing 1s;
 }
 
 .photoTwo:hover {
@@ -134,6 +136,7 @@
   z-index: 1;
   cursor: zoom-in;
   transition: all 100ms linear;
+  animation: photosAppearing 1s;
 }
 
 .photoThree:hover {
@@ -190,6 +193,7 @@
   z-index: 1;
   cursor: zoom-in;
   transition: all 100ms linear;
+  animation: photosAppearing 1s;
 }
 
 .photoFour:hover {
@@ -475,5 +479,14 @@
 
   .titleFive {
     display: none;
+  }
+}
+
+@keyframes photosAppearing {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

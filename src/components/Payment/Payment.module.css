@@ -120,6 +120,8 @@
   position: relative;
   z-index: 10;
   margin-right: 62px;
+  animation: mobileAppearing;
+  animation-duration: 1s;
 }
 
 .iphoneScreen {
@@ -402,5 +404,14 @@
   .iphoneScreen {
     top: 20px;
     left: 40px;
+  }
+}
+
+@keyframes mobileAppearing {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
