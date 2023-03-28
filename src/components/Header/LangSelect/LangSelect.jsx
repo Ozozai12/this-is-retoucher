@@ -74,13 +74,15 @@ export const LangSelect = () => {
   //   return currentLanguage.label;
   // };
 
+  const selectedLanguage = lang.charAt(0).toUpperCase() + lang.slice(1);
+
   return (
     <div className={css.dropdownMenu}>
       <button
         className={css.dropdownMenu__button}
         onClick={() => setIsOpen(!isOpen)}
       >
-        {lang}
+        {selectedLanguage}
         <IconContext.Provider value={{ className: css.langIcon }}>
           {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
         </IconContext.Provider>
