@@ -116,6 +116,10 @@
   border-radius: 10px;
 }
 
+.thumbText {
+  text-align: center;
+}
+
 .iphoneFrame {
   position: relative;
   z-index: 10;
