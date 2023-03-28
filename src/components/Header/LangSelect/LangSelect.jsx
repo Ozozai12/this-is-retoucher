@@ -65,14 +65,14 @@ export const LangSelect = () => {
     setIsOpen(false);
   };
 
-  const handleMenuBlur = () => {
-    setIsOpen(false);
-  };
+  // const handleMenuBlur = () => {
+  //   setIsOpen(false);
+  // };
 
-  const currentLang = () => {
-    const currentLanguage = options.find(option => option.value === lang);
-    return currentLanguage.label;
-  };
+  // const currentLang = () => {
+  //   const currentLanguage = options.find(option => option.value === lang);
+  //   return currentLanguage.label;
+  // };
 
   return (
     <div className={css.dropdownMenu}>
@@ -80,13 +80,13 @@ export const LangSelect = () => {
         className={css.dropdownMenu__button}
         onClick={() => setIsOpen(!isOpen)}
       >
-        {currentLang()}
+        {lang}
         <IconContext.Provider value={{ className: css.langIcon }}>
           {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
         </IconContext.Provider>
       </button>
       {isOpen && (
-        <ul className={css.dropdownMenu__options} onBlur={handleMenuBlur}>
+        <ul className={css.dropdownMenu__options}>
           {options.map(option => (
             <li
               key={option.label}
