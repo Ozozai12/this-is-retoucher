@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/this-is-retoucher/static/css/main.b29536bd.css",
-    "main.js": "/this-is-retoucher/static/js/main.fc73ceff.js",
+    "main.js": "/this-is-retoucher/static/js/main.0d3b62ee.js",
     "static/css/633.b6ba3d92.chunk.css": "/this-is-retoucher/static/css/633.b6ba3d92.chunk.css",
     "static/js/633.45b022e8.chunk.js": "/this-is-retoucher/static/js/633.45b022e8.chunk.js",
     "static/css/216.1ec93f42.chunk.css": "/this-is-retoucher/static/css/216.1ec93f42.chunk.css",
     "static/js/216.257a2952.chunk.js": "/this-is-retoucher/static/js/216.257a2952.chunk.js",
-    "static/css/750.f3d5960f.chunk.css": "/this-is-retoucher/static/css/750.f3d5960f.chunk.css",
+    "static/css/750.abd7fbf9.chunk.css": "/this-is-retoucher/static/css/750.abd7fbf9.chunk.css",
     "static/js/750.f426e394.chunk.js": "/this-is-retoucher/static/js/750.f426e394.chunk.js",
     "static/css/347.493d3bdb.chunk.css": "/this-is-retoucher/static/css/347.493d3bdb.chunk.css",
     "static/js/347.df68f3a7.chunk.js": "/this-is-retoucher/static/js/347.df68f3a7.chunk.js",
@@ -31,12 +31,12 @@
     "static/js/93.3b5b50a8.chunk.js": "/this-is-retoucher/static/js/93.3b5b50a8.chunk.js",
     "index.html": "/this-is-retoucher/index.html",
     "main.b29536bd.css.map": "/this-is-retoucher/static/css/main.b29536bd.css.map",
-    "main.fc73ceff.js.map": "/this-is-retoucher/static/js/main.fc73ceff.js.map",
+    "main.0d3b62ee.js.map": "/this-is-retoucher/static/js/main.0d3b62ee.js.map",
     "633.b6ba3d92.chunk.css.map": "/this-is-retoucher/static/css/633.b6ba3d92.chunk.css.map",
     "633.45b022e8.chunk.js.map": "/this-is-retoucher/static/js/633.45b022e8.chunk.js.map",
     "216.1ec93f42.chunk.css.map": "/this-is-retoucher/static/css/216.1ec93f42.chunk.css.map",
     "216.257a2952.chunk.js.map": "/this-is-retoucher/static/js/216.257a2952.chunk.js.map",
-    "750.f3d5960f.chunk.css.map": "/this-is-retoucher/static/css/750.f3d5960f.chunk.css.map",
+    "750.abd7fbf9.chunk.css.map": "/this-is-retoucher/static/css/750.abd7fbf9.chunk.css.map",
     "750.f426e394.chunk.js.map": "/this-is-retoucher/static/js/750.f426e394.chunk.js.map",
     "347.493d3bdb.chunk.css.map": "/this-is-retoucher/static/css/347.493d3bdb.chunk.css.map",
     "347.df68f3a7.chunk.js.map": "/this-is-retoucher/static/js/347.df68f3a7.chunk.js.map",
@@ -62,6 +62,6 @@
   },
   "entrypoints": [
     "static/css/main.b29536bd.css",
-    "static/js/main.fc73ceff.js"
+    "static/js/main.0d3b62ee.js"
   ]
 }
