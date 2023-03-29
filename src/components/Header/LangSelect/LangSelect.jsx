@@ -53,11 +53,13 @@ export const LangSelect = () => {
   useEffect(() => {
     const currentLanguage = localStorage.getItem('i18nextLng');
     if (!currentLanguage) {
-      return setLang('en');
+      setLang('en');
     }
-    setLang(currentLanguage);
     i18n.changeLanguage(currentLanguage);
+    setLang(currentLanguage);
   }, [i18n]);
+
+  // useEffect(() => {}, [lang, i18n]);
 
   const handleLangSelect = option => {
     setLang(option);
@@ -65,7 +67,10 @@ export const LangSelect = () => {
     setIsOpen(false);
   };
 
-  const selectedLanguage = lang.charAt(0).toUpperCase() + lang.slice(1);
+  const selectedLanguage = (lang.charAt(0).toUpperCase() + lang.slice(1)).slice(
+    0,
+    2
+  );
 
   return (
     <div className={css.dropdownMenu}>
@@ -73,7 +78,7 @@ export const LangSelect = () => {
         className={css.dropdownMenu__button}
         onClick={() => setIsOpen(!isOpen)}
       >
-        {selectedLanguage}
+        {selectedLanguage || 'En'}
         <IconContext.Provider value={{ className: css.langIcon }}>
           {!isOpen ? <AiFillCaretDown /> : <AiFillCaretUp />}
         </IconContext.Provider>
