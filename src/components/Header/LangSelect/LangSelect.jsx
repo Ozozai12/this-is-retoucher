@@ -55,8 +55,8 @@ export const LangSelect = () => {
     if (!currentLanguage) {
       setLang('en');
     }
+    setLang(currentLanguage);
     i18n.changeLanguage(currentLanguage);
-    return setLang(currentLanguage);
   }, [i18n]);
 
   const handleLangSelect = option => {
@@ -64,15 +64,6 @@ export const LangSelect = () => {
     i18n.changeLanguage(option);
     setIsOpen(false);
   };
-
-  // const handleMenuBlur = () => {
-  //   setIsOpen(false);
-  // };
-
-  // const currentLang = () => {
-  //   const currentLanguage = options.find(option => option.value === lang);
-  //   return currentLanguage.label;
-  // };
 
   const selectedLanguage = lang.charAt(0).toUpperCase() + lang.slice(1);
 
