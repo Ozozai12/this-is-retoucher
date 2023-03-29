@@ -45,26 +45,34 @@ const options = [
 ];
 
 export const LangSelect = () => {
-  const [lang, setLang] = useState('en');
+  let language = localStorage.getItem('i18nextLng');
+  if (!language) {
+    language = 'en';
+  }
+  const [lang, setLang] = useState(language);
   const [isOpen, setIsOpen] = useState(false);
 
   const { i18n } = useTranslation();
 
   // useEffect(() => {
   //   const currentLanguage = localStorage.getItem('i18nextLng');
-  //   if (!currentLanguage) {
-  //     localStorage.setItem('i18nextLng', 'en');
+  //   console.log(currentLanguage);
+  //   if (currentLanguage) {
+  //     setLang('en');
   //   }
   // }, []);
 
+  // useEffect(() => {
+  //   const currentLanguage = localStorage.getItem('i18nextLng');
+  //   if (currentLanguage) {
+  //     i18n.changeLanguage(currentLanguage);
+  //     return setLang(currentLanguage);
+  //   }
+  // }, [i18n]);
+
   useEffect(() => {
-    const currentLanguage = localStorage.getItem('i18nextLng');
-    if (currentLanguage) {
-      i18n.changeLanguage(currentLanguage);
-      return setLang(currentLanguage);
-    }
-    return setLang('en');
-  }, [i18n]);
+    localStorage.setItem('i18nextLng', lang);
+  }, [lang]);
 
   const handleLangSelect = option => {
     setLang(option);
@@ -72,10 +80,7 @@ export const LangSelect = () => {
     setIsOpen(false);
   };
 
-  const selectedLanguage = (lang.charAt(0).toUpperCase() + lang.slice(1)).slice(
-    0,
-    2
-  );
+  const selectedLanguage = lang.charAt(0).toUpperCase() + lang.slice(1);
 
   return (
     <div className={css.dropdownMenu}>
