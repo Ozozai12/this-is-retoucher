@@ -80,68 +80,61 @@ export function BeforeAfter() {
             </li>
           </ul>
           <ul className={css.rightColumn}>
-            <li>
-              {' '}
+            <li className={css.beforeafterPhoto}>
               <img
                 src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678789199/this-is-retoucher/before-after/bef4_pr3ea5.jpg"
                 alt="black women before"
                 width={281}
-                className={css.beforeafterPhoto}
                 onClick={e => {
                   setToggler(!toggler);
                   setUrl(e.currentTarget.src);
                 }}
               />
             </li>
-            <li>
+            <li className={css.beforeafterPhoto}>
               <img
                 src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678789198/this-is-retoucher/before-after/af4_g8eorb.jpg"
                 alt="black women after"
-                className={css.beforeafterPhoto}
                 onClick={e => {
                   setToggler(!toggler);
                   setUrl(e.currentTarget.src);
                 }}
               />
             </li>
-            <li>
+            <li className={css.beforeafterPhoto}>
               <img
                 src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678789199/this-is-retoucher/before-after/bef5_kb4ube.jpg"
                 alt="woman with earrings before"
-                className={css.beforeafterPhoto}
                 onClick={e => {
                   setToggler(!toggler);
                   setUrl(e.currentTarget.src);
                 }}
               />
             </li>
-            <li>
+            <li className={css.beforeafterPhoto}>
               <img
                 src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678789198/this-is-retoucher/before-after/af5_drghli.jpg"
                 alt="woman with earrings after"
-                className={css.beforeafterPhoto}
                 onClick={e => {
                   setToggler(!toggler);
                   setUrl(e.currentTarget.src);
                 }}
               />
             </li>
-            <li>
+            <li className={css.beforeafterPhoto}>
               <img
                 src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678789199/this-is-retoucher/before-after/bef6_txqgat.jpg"
                 alt="woman in swimsuit before"
-                className={css.beforeafterPhoto}
                 onClick={e => {
                   setToggler(!toggler);
                   setUrl(e.currentTarget.src);
                 }}
               />
             </li>
-            <li>
+            <li className={css.beforeafterPhoto}>
               <img
                 src="https://res.cloudinary.com/dmadhdzzm/image/upload/v1678789198/this-is-retoucher/before-after/af6_t2kilj.jpg"
                 alt="woman in swimsuit after"
-                className={css.beforeafterPhoto}
                 onClick={e => {
                   setToggler(!toggler);
                   setUrl(e.currentTarget.src);
