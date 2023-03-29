@@ -53,7 +53,7 @@ export const LangSelect = () => {
   useEffect(() => {
     const currentLanguage = localStorage.getItem('i18nextLng');
     if (!currentLanguage) {
-      setLang('en');
+      return setLang('en');
     }
     setLang(currentLanguage);
     i18n.changeLanguage(currentLanguage);
