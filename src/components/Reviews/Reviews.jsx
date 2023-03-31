@@ -33,6 +33,7 @@ export function Reviews() {
                   </IconContext.Provider>
                 }
                 draggable
+                rewind
                 hasArrows
                 slidesToShow={3}
                 slidesToScroll={3}
