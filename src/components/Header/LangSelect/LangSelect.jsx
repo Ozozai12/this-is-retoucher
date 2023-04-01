@@ -47,32 +47,17 @@ const options = [
 export const LangSelect = () => {
   let language = localStorage.getItem('i18nextLng');
   if (!language) {
-    language = 'uk';
+    language = 'en';
   }
   const [lang, setLang] = useState(language);
   const [isOpen, setIsOpen] = useState(false);
 
   const { i18n } = useTranslation();
 
-  // useEffect(() => {
-  //   const currentLanguage = localStorage.getItem('i18nextLng');
-  //   console.log(currentLanguage);
-  //   if (currentLanguage) {
-  //     setLang('en');
-  //   }
-  // }, []);
-
-  // useEffect(() => {
-  //   const currentLanguage = localStorage.getItem('i18nextLng');
-  //   if (currentLanguage) {
-  //     i18n.changeLanguage(currentLanguage);
-  //     return setLang(currentLanguage);
-  //   }
-  // }, [i18n]);
-
   useEffect(() => {
     localStorage.setItem('i18nextLng', lang);
-  }, [lang]);
+    i18n.changeLanguage(lang);
+  }, [i18n, lang]);
 
   const handleLangSelect = option => {
     setLang(option);
