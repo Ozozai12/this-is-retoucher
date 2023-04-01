@@ -491,12 +491,3 @@
     opacity: 1;
   }
 }
-
-@-webkit-keyframes photosAppearing {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
