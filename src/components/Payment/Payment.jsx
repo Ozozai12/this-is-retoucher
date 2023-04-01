@@ -33,6 +33,7 @@ export function Payment() {
                 <span className={css.priceTitle}>{t('high_end')}</span>
                 <span className={css.priceValue}>{t('from')} 12$</span>
               </div>
+              <p className={css.termsText}>terms 1-2 days</p>
             </div>
           </div>
 

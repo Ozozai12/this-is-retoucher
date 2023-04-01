@@ -17,6 +17,8 @@
   left: 246px;
   top: 33px;
   z-index: 1;
+  animation-name: translateX;
+  animation-duration: 1s;
 }
 
 .photoTwo {
@@ -27,6 +29,8 @@
   left: 571px;
   top: 468px;
   z-index: 3;
+  animation-name: translateXRev;
+  animation-duration: 1s;
 }
 
 .photoThree {
@@ -37,6 +41,8 @@
   left: 255px;
   top: 547px;
   z-index: 4;
+  animation-name: translateY;
+  animation-duration: 1s;
 }
 
 .frameOne {
@@ -47,6 +53,8 @@
   height: 583px;
   z-index: 2;
   border: 3px solid #fff;
+  animation-name: translateY;
+  animation-duration: 1s;
 }
 
 .frameTwo {
@@ -57,6 +65,8 @@
   top: 456px;
   z-index: 3;
   border: 2.5px solid #ffffff;
+  animation-name: translateY;
+  animation-duration: 1s;
 }
 
 .frameThree {
@@ -67,6 +77,8 @@
   top: 579px;
   z-index: 3;
   border: 2px solid #858585;
+  animation-name: translateY;
+  animation-duration: 1s;
 }
 
 .titleOne {
@@ -83,6 +95,9 @@
   color: #858585;
 
   transform: rotate(-90deg);
+
+  animation-name: translateYRot;
+  animation-duration: 1s;
 }
 
 .titleTwo {
@@ -99,6 +114,9 @@
   color: #ffffff;
 
   transform: rotate(-90deg);
+
+  animation-name: translateYRot;
+  animation-duration: 1s;
 }
 
 .titleThree {
@@ -115,6 +133,9 @@
 
   color: #adadad;
   z-index: 10;
+
+  animation-name: translateX;
+  animation-duration: 1s;
 }
 
 .titleFour {
@@ -131,6 +152,9 @@
   letter-spacing: 0.085em;
 
   color: #d6d6d6;
+
+  animation-name: translateXrev;
+  animation-duration: 1s;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199.9px) {
@@ -283,5 +307,40 @@
     line-height: 22px;
     left: 6px;
     bottom: -23px;
+  }
+}
+
+@keyframes translateX {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes translateXRev {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes translateY {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes translateYRot {
+  0% {
+    transform: translateY(100%), rotate(-90deg);
+  }
+  100% {
+    transform: translateY(0), rotate(-90deg);
   }
 }
