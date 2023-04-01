@@ -50,7 +50,8 @@
 
 .beforeafterPhoto:nth-child(even) {
   margin-left: 20px;
-  animation: photosAppearing 1s;
+  animation-name: photosAppearing;
+  animation-duration: 1s;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199.9px) {

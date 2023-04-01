@@ -46,7 +46,8 @@
   z-index: 1;
   cursor: zoom-in;
   transition: all 100ms linear;
-  animation: photosAppearing 1s;
+  animation-name: photosAppearing;
+  animation-duration: 1s;
 }
 
 .photoOne:hover {
