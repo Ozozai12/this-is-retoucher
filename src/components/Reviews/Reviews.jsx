@@ -119,6 +119,7 @@ export function Reviews() {
                 }
                 draggable
                 hasArrows
+                rewind
                 slidesToShow={1}
                 slidesToScroll={1}
               >
