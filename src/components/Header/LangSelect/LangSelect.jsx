@@ -57,7 +57,7 @@ export const LangSelect = () => {
 
   useEffect(() => {
     localStorage.setItem('i18nextLng', lang);
-    i18n.changeLanguage(lang);
+    // i18n.changeLanguage(lang);
   }, [i18n, lang]);
 
   const handleLangSelect = option => {
