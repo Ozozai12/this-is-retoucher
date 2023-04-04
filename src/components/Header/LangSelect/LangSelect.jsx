@@ -52,6 +52,11 @@ export const LangSelect = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
+    localStorage.getItem('i18nextLng', lang);
+    i18n.changeLanguage(lang);
+  }, [i18n, lang]);
+
+  useEffect(() => {
     localStorage.setItem('i18nextLng', lang);
     i18n.changeLanguage(lang);
   }, [i18n, lang]);
