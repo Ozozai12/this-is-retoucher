@@ -53,7 +53,7 @@ export const LangSelect = () => {
 
   useEffect(() => {
     i18n.changeLanguage(localStorage.getItem('i18nextLng'));
-  }, []);
+  }, [i18n]);
 
   useEffect(() => {
     localStorage.setItem('i18nextLng', lang);
