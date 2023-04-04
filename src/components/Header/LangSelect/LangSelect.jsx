@@ -46,10 +46,8 @@ const options = [
 
 export const LangSelect = () => {
   let language = localStorage.getItem('i18nextLng');
-  if (!language) {
-    language = 'en';
-  }
-  const [lang, setLang] = useState(language);
+
+  const [lang, setLang] = useState(language || 'uk');
   const [isOpen, setIsOpen] = useState(false);
 
   const { i18n } = useTranslation();
