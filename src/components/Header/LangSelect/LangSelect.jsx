@@ -45,12 +45,11 @@ const options = [
 ];
 
 export const LangSelect = () => {
+  const { i18n } = useTranslation();
   let language = localStorage.getItem('i18nextLng');
 
   const [lang, setLang] = useState(language || 'uk');
   const [isOpen, setIsOpen] = useState(false);
-
-  const { i18n } = useTranslation();
 
   useEffect(() => {
     localStorage.setItem('i18nextLng', lang);
