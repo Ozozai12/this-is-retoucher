@@ -54,14 +54,13 @@ export const LangSelect = () => {
   console.log('Current state: ', lang);
 
   useEffect(() => {
-    const l = localStorage.getItem('i18nextLng');
-    i18n.changeLanguage(l);
-    console.log('Language got from storage: ', l);
-  }, [i18n]);
+    i18n.changeLanguage(lang);
+    console.log('Language set as current: ', lang);
+  }, [i18n, lang]);
 
   useEffect(() => {
     localStorage.setItem('i18nextLng', lang);
-    console.log('Language set to storage');
+    console.log('Language set to storage: ', lang);
     // i18n.changeLanguage(lang);
   }, [i18n, lang]);
 
