@@ -76,7 +76,10 @@ export const LangSelect = () => {
         </IconContext.Provider>
       </button>
       {isOpen && (
-        <ul className={css.dropdownMenu__options}>
+        <ul
+          className={css.dropdownMenu__options}
+          onBlur={() => setIsOpen(false)}
+        >
           {options.map(option => (
             <li
               key={option.label}
