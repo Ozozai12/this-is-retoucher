@@ -11,6 +11,12 @@ export function Beauty() {
   const [url, setUrl] = useState('');
   const { t } = useTranslation();
 
+  const openImage = e => {
+    e.preventDefault();
+    setToggler(!toggler);
+    setUrl(e.currentTarget.href);
+  };
+
   return (
     <>
       <Lightbox toggler={toggler} url={url} />
@@ -20,11 +26,7 @@ export function Beauty() {
           <div className={css.assetContainerOne}>
             <a
               href="https://res.cloudinary.com/dmadhdzzm/image/upload/v1680620353/this-is-retoucher/large-photos/beauty/b1_ehzz4c.jpg"
-              onClick={e => {
-                e.preventDefault();
-                setToggler(!toggler);
-                setUrl(e.currentTarget.href);
-              }}
+              onClick={e => openImage(e)}
               className={css.photoOne}
             >
               <img
@@ -38,11 +40,7 @@ export function Beauty() {
           <div className={css.assetContainerTwo}>
             <a
               href="https://res.cloudinary.com/dmadhdzzm/image/upload/v1680620353/this-is-retoucher/large-photos/beauty/b2_g6ei19.jpg"
-              onClick={e => {
-                e.preventDefault();
-                setToggler(!toggler);
-                setUrl(e.currentTarget.href);
-              }}
+              onClick={e => openImage(e)}
               className={css.photoTwo}
             >
               <img
@@ -58,11 +56,7 @@ export function Beauty() {
           <div className={css.assetContainerThree}>
             <a
               href="https://res.cloudinary.com/dmadhdzzm/image/upload/v1680620353/this-is-retoucher/large-photos/beauty/b3_uhqy3u.jpg"
-              onClick={e => {
-                e.preventDefault();
-                setToggler(!toggler);
-                setUrl(e.currentTarget.href);
-              }}
+              onClick={e => openImage(e)}
               className={css.photoThree}
             >
               <img
@@ -77,11 +71,7 @@ export function Beauty() {
           <div className={css.assetContainerFour}>
             <a
               href="https://res.cloudinary.com/dmadhdzzm/image/upload/v1680620353/this-is-retoucher/large-photos/beauty/b4_gxtxl9.jpg"
-              onClick={e => {
-                e.preventDefault();
-                setToggler(!toggler);
-                setUrl(e.currentTarget.href);
-              }}
+              onClick={e => openImage(e)}
               className={css.photoFour}
             >
               <img
